@@ -1,5 +1,6 @@
 import React, { createContext, ReactNode, useState } from 'react';
 import faqData from '../data/faq.json';
+import { shuffleQuestions } from '../helpers/helpers';
 import { IQuestion } from '../models/IQuestion';
 
 interface IContextValues {
@@ -23,21 +24,23 @@ export const QuestionsContext = createContext<IContextValues | undefined>(
 export const QuestionsProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const initialFaqSections = faqData.faqSections.map(section => ({
+  const initialFaqSections = faqData.faqSections.map((section) => ({
     ...section,
-    questions: section.questions.map(question => ({
+    questions: section.questions.map((question) => ({
       ...question,
-      clicked: false
-    }))
+      clicked: false,
+    })),
   }));
 
   const [faqSections] = useState<IFaqSection[]>(initialFaqSections);
-  const [activeFaqSection, setActiveFaqSection] = useState<IFaqSection | null>(null);
+  const [activeFaqSection, setActiveFaqSection] = useState<IFaqSection | null>(
+    null
+  );
   const [questions, setQuestions] = useState<IQuestion[]>([]);
 
   const handleClickOnFaqSection = (section: IFaqSection) => {
     setActiveFaqSection(section);
-    setQuestions(section.questions);
+    setQuestions(shuffleQuestions(section.questions));
   };
 
   const questionsValue = {
