@@ -93,7 +93,7 @@ const Questions = () => {
     currentQuestion.selected_answer === currentQuestion.correct_answer;
 
   return (
-    <main className="flex flex-col items-center gap-8 md:gap-20 p-4 md:p-8 bg-bg-primary min-h-screen relative overflow-x-hidden">
+    <main className="flex flex-col items-center gap-8 md:gap-20 px-4 py-4 pb-12 md:p-8 bg-bg-primary min-h-screen relative overflow-x-hidden">
       <div className="flex justify-between w-full md:justify-center">
         <img
           src={companyLogo}
