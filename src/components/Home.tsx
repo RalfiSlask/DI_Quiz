@@ -36,26 +36,7 @@ const Home = () => {
             onClick={() => handleClickOnFaqSection(section)}
             className="flex flex-col items-center gap-2 group w-full"
           >
-            <button
-              className="
-              bg-bg-secondary 
-              text-white 
-              text-lg md:text-xl 
-              px-3 md:px-8 
-              py-2 md:py-4 
-              rounded-xl
-              shadow-md
-              hover:bg-bg-tertiary
-              hover:text-bg-primary
-              transition-colors 
-              duration-200
-              w-full
-              max-w-[200px]
-              sm:max-w-[300px]
-            "
-            >
-              {section.title}
-            </button>
+            <button className="question-section">{section.title}</button>
             <span className="text-sm md:text-base text-text-gray font-medium">
               {section.questions.length} frågor
             </span>
