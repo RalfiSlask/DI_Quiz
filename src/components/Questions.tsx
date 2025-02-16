@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import companyLogo from '../assets/logo.svg';
 import { QuestionsContext } from '../context/Context';
 import { shuffleQuestions } from '../helpers/helpers';
 import { IQuestion } from '../models/IQuestion';
@@ -19,6 +20,9 @@ const Questions = () => {
 
   const navigate = useNavigate();
 
+  /**
+   * Navigates to the start page if there are no questions
+   */
   useEffect(() => {
     if (questions.length === 0) {
       navigate('/');
@@ -45,9 +49,15 @@ const Questions = () => {
     );
 
     setQuestions(resetQuestions);
+    setQuestionIndex(0);
+    setShowFeedback(false);
     navigate('/');
   };
 
+  /**
+   * Handles the click on an answer
+   * @param {string} answer - The answer to click on
+   */
   const clickOnAnswer = (answer: string) => {
     const updatedQuestions = questions.map(
       (question: IQuestion, index: number) => {
@@ -65,6 +75,7 @@ const Questions = () => {
     setQuestions(updatedQuestions);
     setShowFeedback(true);
 
+    // we set a timeout to navigate to the final page after 2 seconds
     if (questionIndex + 1 === questions.length) {
       setTimeout(() => {
         navigate('/resultat');
@@ -83,32 +94,21 @@ const Questions = () => {
 
   return (
     <main className="flex flex-col items-center gap-8 md:gap-20 p-4 md:p-8 bg-bg-primary min-h-screen relative overflow-x-hidden">
-      <div className="flex flex-col items-center gap-4">
-        <button
-          onClick={handleGoBack}
-          className="
-            bg-bg-secondary 
-            text-white 
-            text-lg
-            px-4 md:px-6 
-            py-2 
-            rounded-xl
-            hover:bg-bg-tertiary
-            hover:text-bg-primary 
-            transition-colors
-            duration-200
-            flex 
-            items-center 
-            gap-2
-            shadow-md
-            group
-          "
-        >
+      <div className="flex justify-between w-full md:justify-center">
+        <img
+          src={companyLogo}
+          alt="Digital Island Logo"
+          aria-label="Digital Island Logo"
+          className="w-10 h-auto md:w-12 md:absolute md:top-8 md:left-10 mb-0"
+        />
+        <button onClick={handleGoBack} className="primary-button group">
           <span className="transform transition-transform duration-200 group-hover:-translate-x-1">
             ←
           </span>
           <span>Tillbaka hem</span>
         </button>
+      </div>
+      <div className="flex flex-col items-center gap-4">
         <div className="flex flex-col items-center gap-2 mt-10">
           <h1 className="text-2xl md:text-4xl font-bold text-bg-tertiary text-center">
             {context.activeFaqSection?.title}
@@ -139,12 +139,7 @@ const Questions = () => {
         {showFeedback && (
           <div
             className={`
-            text-lg md:text-xl
-            font-medium
-            animate-fadeIn 
-            p-4 
-            rounded-xl 
-            shadow-md
+            feedback-container animate-fadeIn
             ${
               isCorrect
                 ? 'bg-bg-tertiary text-bg-primary border border-bg-tertiary'
@@ -170,25 +165,11 @@ const Questions = () => {
         )}
 
         {currentQuestion.active && questionIndex < questions.length - 1 && (
-          <button
-            onClick={nextQuestion}
-            className="
-              bg-bg-secondary 
-              text-white 
-              text-lg
-              px-4 md:px-8 
-              py-2 md:py-3 
-              rounded-xl
-              hover:bg-bg-tertiary
-              hover:text-bg-primary
-              transition-colors
-              duration-200
-              shadow-md
-              mt-4
-              font-medium
-            "
-          >
-            Nästa fråga →
+          <button onClick={nextQuestion} className="primary-button group mt-4">
+            <span>Nästa fråga</span>
+            <span className="transform transition-transform duration-200 group-hover:translate-x-1">
+              →
+            </span>
           </button>
         )}
       </div>
