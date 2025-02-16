@@ -1,5 +1,6 @@
 import { useContext, useEffect } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
+import companyLogo from '../assets/logo.svg';
 import { QuestionsContext } from '../context/Context';
 import { shuffleQuestions } from '../helpers/helpers';
 import LottieAnimationOne from './LottieAnimationOne';
@@ -29,11 +30,15 @@ const FinalPage = () => {
 
   const percentage = Math.round((correctCount / questions.length) * 100);
 
+  /**
+   * Resets the questions and navigates to the start page
+   */
   const handleGoBack = () => {
     const resetQuestions = shuffleQuestions(
       questions.map((q) => ({
         ...q,
         selected_answer: '',
+        active: false,
         clicked: false,
       }))
     );
@@ -42,8 +47,30 @@ const FinalPage = () => {
     navigate('/');
   };
 
+  /**
+   * Resets the questions and navigates to the start of the current sections quiz
+   */
+  const handleTryAgain = () => {
+    const resetQuestions = shuffleQuestions(
+      questions.map((q) => ({
+        ...q,
+        selected_answer: '',
+        active: false,
+        clicked: false,
+      }))
+    );
+    setQuestions(resetQuestions);
+    navigate('/fragor');
+  };
+
   return (
     <main className="flex flex-col items-center gap-8 md:gap-20 px-4 pt-10 pb-20 md:px-8 md:pb-16 bg-bg-primary min-h-screen relative overflow-x-hidden">
+      <img
+        src={companyLogo}
+        alt="Digital Island Logo"
+        aria-label="Digital Island Logo"
+        className="w-10 h-auto md:w-12 md:absolute md:top-8 md:left-10 mb-4 md:mb-0"
+      />
       <div className="flex flex-col items-center gap-4 mt-8 md:mt-16">
         <h1 className="text-2xl md:text-4xl font-bold text-bg-tertiary text-center">
           {activeFaqSection?.title}
@@ -83,17 +110,7 @@ const FinalPage = () => {
 
         <div className="flex flex-col gap-4 w-full max-w-xs">
           <button
-            onClick={() => {
-              const resetQuestions = shuffleQuestions(
-                questions.map((q) => ({
-                  ...q,
-                  selected_answer: '',
-                  clicked: false,
-                }))
-              );
-              setQuestions(resetQuestions);
-              navigate('/fragor');
-            }}
+            onClick={handleTryAgain}
             className="
               bg-bg-tertiary 
               text-bg-primary 
@@ -101,7 +118,8 @@ const FinalPage = () => {
               px-6 
               py-3
               rounded-xl
-              hover:bg-bg-tertiary/85
+              hover:bg-bg-primary
+              hover:text-bg-tertiary
               transition-colors 
               duration-200
               shadow-md
