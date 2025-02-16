@@ -8,12 +8,12 @@
           "id": 11,
           "question": "Vad är $wpdb i WordPress?",
           "answers": [
-            "En global klass för att hantera databasfrågor säkert i WordPress",
-            "En variabel för att spara databasinställningar",
-            "Ett plugin för databashantering",
-            "En tillfällig lagring av databasfrågor"
+            "Ett objekt för säker databashantering och queries",
+            "En global variabel för databasanslutningar",
+            "Ett verktyg för att optimera databastransaktioner",
+            "En klass för att hantera WordPress-databasen"
           ],
-          "correct_answer": "En global klass för att hantera databasfrågor säkert i WordPress",
+          "correct_answer": "Ett objekt för säker databashantering och queries",
           "active": false,
           "selected_answer": ""
         },
@@ -21,12 +21,12 @@
           "id": 12,
           "question": "Vad är WP_Query i WordPress?",
           "answers": [
-            "En klass för att hämta inlägg och sidor med avancerade sökkriterier",
-            "Ett sätt att skriva SQL-frågor",
-            "En databastabell för inlägg",
-            "En funktion för att söka i databasen"
+            "Ett objekt för innehållshämtning och filtrering",
+            "En metod för att hantera databasförfrågningar",
+            "Ett verktyg för att bygga avancerade sökningar",
+            "En klass för att modifiera WordPress-loopen"
           ],
-          "correct_answer": "En klass för att hämta inlägg och sidor med avancerade sökkriterier",
+          "correct_answer": "Ett objekt för innehållshämtning och filtrering",
           "active": false,
           "selected_answer": ""
         },
@@ -34,12 +34,12 @@
           "id": 13,
           "question": "Vad är get_posts i WordPress?",
           "answers": [
-            "En förenklad funktion av WP_Query för att hämta inlägg",
-            "En funktion för att skapa nya inlägg",
-            "En funktion för att visa inlägg",
-            "En funktion för att räkna inlägg"
+            "En optimerad metod för innehållshämtning",
+            "Ett alternativ till standardloopen",
+            "En funktion för posthantering",
+            "Ett verktyg för innehållsfiltrering"
           ],
-          "correct_answer": "En förenklad funktion av WP_Query för att hämta inlägg",
+          "correct_answer": "En optimerad metod för innehållshämtning",
           "active": false,
           "selected_answer": ""
         },
@@ -47,12 +47,12 @@
           "id": 14,
           "question": "Vad är query_posts och varför bör man undvika det?",
           "answers": [
-            "En funktion som ändrar huvudloopen och kan skapa problem med sidnumrering och menyer",
-            "En snabb metod för att hämta inlägg",
-            "Den rekommenderade metoden för att hämta inlägg",
-            "En säker metod för databasfrågor"
+            "En metod som stör WordPress huvudloop",
+            "Ett verktyg för avancerad postfiltrering",
+            "En funktion för databasoptimering",
+            "Ett system för innehållssortering"
           ],
-          "correct_answer": "En funktion som ändrar huvudloopen och kan skapa problem med sidnumrering och menyer",
+          "correct_answer": "En metod som stör WordPress huvudloop",
           "active": false,
           "selected_answer": ""
         },
@@ -60,12 +60,12 @@
           "id": 15,
           "question": "Varför bör man rensa WordPress-queries?",
           "answers": [
-            "För att förhindra att tidigare queries påverkar efterföljande queries och template-taggar",
-            "För att spara minne i databasen",
-            "För att öka hastigheten på sidan",
-            "För att rensa cachen"
+            "För att undvika konflikt mellan queries",
+            "För att optimera sidladdningen",
+            "För att förbättra databasens prestanda",
+            "För att uppdatera cache-systemet"
           ],
-          "correct_answer": "För att förhindra att tidigare queries påverkar efterföljande queries och template-taggar",
+          "correct_answer": "För att undvika konflikt mellan queries",
           "active": false,
           "selected_answer": ""
         },
@@ -73,12 +73,12 @@
           "id": 16,
           "question": "Vad är skillnaden mellan WP_Query och $wpdb?",
           "answers": [
-            "WP_Query är för inlägg och taxonomier medan $wpdb är för direkta databasfrågor",
-            "WP_Query är snabbare än $wpdb",
-            "WP_Query är för plugins medan $wpdb är för teman",
-            "$wpdb är nyare än WP_Query"
+            "WP_Query hanterar innehåll, $wpdb databaser",
+            "WP_Query är nyare, $wpdb är äldre",
+            "WP_Query är snabbare, $wpdb är säkrare",
+            "WP_Query är global, $wpdb är lokal"
           ],
-          "correct_answer": "WP_Query är för inlägg och taxonomier medan $wpdb är för direkta databasfrågor",
+          "correct_answer": "WP_Query hanterar innehåll, $wpdb databaser",
           "active": false,
           "selected_answer": ""
         },
@@ -86,12 +86,12 @@
           "id": 17,
           "question": "Vad är skillnaden mellan wp_reset_query() och wp_reset_postdata()?",
           "answers": [
-            "wp_reset_query() återställer hela queryn medan wp_reset_postdata() bara återställer post-data",
-            "Det finns ingen skillnad",
-            "wp_reset_query() är snabbare",
-            "wp_reset_postdata() tar bort alla queries"
+            "Reset_query återställer loopen, reset_postdata data",
+            "Reset_query är global, reset_postdata lokal",
+            "Reset_query är snabbare, reset_postdata säkrare",
+            "Reset_query är nyare, reset_postdata äldre"
           ],
-          "correct_answer": "wp_reset_query() återställer hela queryn medan wp_reset_postdata() bara återställer post-data",
+          "correct_answer": "Reset_query återställer loopen, reset_postdata data",
           "active": false,
           "selected_answer": ""
         },
@@ -99,12 +99,12 @@
           "id": 18,
           "question": "Vad är posts_where i WordPress?",
           "answers": [
-            "Ett filter för att modifiera WHERE-delen av SQL-frågan för inlägg",
-            "En tabell för inläggsplatser",
-            "En funktion för att hitta inlägg",
-            "En parameter i WP_Query"
+            "Ett filter för SQL WHERE-satser",
+            "En funktion för postsortering",
+            "Ett verktyg för databashantering",
+            "En metod för innehållsfiltrering"
           ],
-          "correct_answer": "Ett filter för att modifiera WHERE-delen av SQL-frågan för inlägg",
+          "correct_answer": "Ett filter för SQL WHERE-satser",
           "active": false,
           "selected_answer": ""
         },
@@ -112,12 +112,12 @@
           "id": 19,
           "question": "Vad är posts_join i WordPress?",
           "answers": [
-            "Ett filter för att lägga till JOIN-satser i inläggsfrågor",
-            "En metod för att kombinera inlägg",
-            "En funktion för att länka inlägg",
-            "En tabell för inläggsrelationer"
+            "Ett filter för SQL JOIN-satser",
+            "En metod för postrelationer",
+            "Ett verktyg för databaskoppling",
+            "En funktion för innehållslänkning"
           ],
-          "correct_answer": "Ett filter för att lägga till JOIN-satser i inlägggsfrågor",
+          "correct_answer": "Ett filter för SQL JOIN-satser",
           "active": false,
           "selected_answer": ""
         },
@@ -125,12 +125,12 @@
           "id": 20,
           "question": "Vad är wp_postmeta-tabellen i WordPress?",
           "answers": [
-            "En tabell som lagrar metadata för inlägg, sidor och custom post types",
-            "En tillfällig tabell för inlägg",
-            "En tabell för inläggskategorier",
-            "En backup av inläggstabellen"
+            "En tabell för posternas metadata",
+            "Ett system för innehållsdata",
+            "En struktur för extrainformation",
+            "En lagringsplats för postdata"
           ],
-          "correct_answer": "En tabell som lagrar metadata för inlägg, sidor och custom post types",
+          "correct_answer": "En tabell för posternas metadata",
           "active": false,
           "selected_answer": ""
         },
@@ -138,12 +138,12 @@
           "id": 21,
           "question": "Vad är register_post_type i WordPress?",
           "answers": [
-            "En funktion för att skapa egna innehållstyper som lagras i wp_posts",
-            "Ett sätt att registrera nya plugins",
-            "En funktion för att skapa nya databastabeller",
-            "Ett sätt att registrera nya användare"
+            "En funktion för innehållstyper",
+            "Ett verktyg för postregistrering",
+            "En metod för databashantering",
+            "Ett system för innehållsstruktur"
           ],
-          "correct_answer": "En funktion för att skapa egna innehållstyper som lagras i wp_posts",
+          "correct_answer": "En funktion för innehållstyper",
           "active": false,
           "selected_answer": ""
         },
@@ -151,12 +151,12 @@
           "id": 22,
           "question": "Var lagras custom post types i WordPress-databasen?",
           "answers": [
-            "I wp_posts-tabellen med egen post_type",
-            "I en ny tabell för varje custom post type",
-            "I wp_options-tabellen",
-            "I en separat databas"
+            "I wp_posts-tabellen med egen post_type-identifierare för varje innehållstyp",
+            "I separata databastabeller som skapas dynamiskt för varje custom post type",
+            "I wp_options-tabellen med serialiserad data för innehållsstrukturen",
+            "I wp_postmeta med metadata som definierar innehållstypens egenskaper"
           ],
-          "correct_answer": "I wp_posts-tabellen med egen post_type",
+          "correct_answer": "I wp_posts-tabellen med egen post_type-identifierare för varje innehållstyp",
           "active": false,
           "selected_answer": ""
         },
@@ -164,12 +164,12 @@
           "id": 23,
           "question": "Hur hämtar man custom post types från databasen?",
           "answers": [
-            "Med WP_Query och args['post_type'] = 'din_custom_type'",
-            "Genom att söka direkt i databasen",
-            "Med en specialfunktion för varje post type",
-            "Genom att filtrera vanliga inlägg"
+            "Genom WP_Query med post_type-parameter för specifik innehållstyp",
+            "Via direkta SQL-frågor mot wp_posts med WHERE post_type-villkor",
+            "Med get_post_types() följt av en filtrering av resultatet",
+            "Genom att använda register_post_type med query-parameter"
           ],
-          "correct_answer": "Med WP_Query och args['post_type'] = 'din_custom_type'",
+          "correct_answer": "Genom WP_Query med post_type-parameter för specifik innehållstyp",
           "active": false,
           "selected_answer": ""
         },
@@ -177,12 +177,12 @@
           "id": 24,
           "question": "Vad är register_taxonomy i WordPress?",
           "answers": [
-            "En funktion för att skapa egna taxonomier som kategorier och etiketter",
-            "En funktion för att registrera databastabeller",
-            "Ett sätt att registrera nya inlägg",
-            "En funktion för att skapa menyer"
+            "Ett API för att skapa anpassade klassificeringssystem för innehåll",
+            "En funktion som registrerar nya databastabeller för innehållssortering",
+            "Ett system för att koppla metadata till specifika innehållstyper",
+            "En metod för att definiera hierarkiska innehållsstrukturer"
           ],
-          "correct_answer": "En funktion för att skapa egna taxonomier som kategorier och etiketter",
+          "correct_answer": "Ett API för att skapa anpassade klassificeringssystem för innehåll",
           "active": false,
           "selected_answer": ""
         },
@@ -190,12 +190,12 @@
           "id": 25,
           "question": "Var lagras taxonomier i WordPress-databasen?",
           "answers": [
-            "I wp_terms, wp_term_taxonomy och wp_term_relationships",
-            "I wp_posts tillsammans med inlägg",
-            "I en egen tabell för varje taxonomi",
-            "I wp_options-tabellen"
+            "I ett system av tabeller: wp_terms, wp_term_taxonomy och wp_term_relationships",
+            "I wp_posts med särskilda taxonomi-identifierare för varje term",
+            "I wp_options med serialiserad data för taxonomistrukturen",
+            "I wp_postmeta med metadata som mappar innehåll till termer"
           ],
-          "correct_answer": "I wp_terms, wp_term_taxonomy och wp_term_relationships",
+          "correct_answer": "I ett system av tabeller: wp_terms, wp_term_taxonomy och wp_term_relationships",
           "active": false,
           "selected_answer": ""
         },
@@ -203,12 +203,12 @@
           "id": 26,
           "question": "Hur kopplar man en taxonomi till en custom post type?",
           "answers": [
-            "Genom att ange post_type i register_taxonomy eller register_taxonomy_for_object_type",
-            "Genom att skapa en ny databastabell",
-            "Det sker automatiskt",
-            "Genom att modifiera wp_posts"
+            "Genom register_taxonomy med post_type-argument eller register_taxonomy_for_object_type",
+            "Via taxonomi-hooks som körs under register_post_type-processen",
+            "Genom att modifiera wp_term_relationships med custom SQL-queries",
+            "Med hjälp av WordPress taxonomi-API och term_relationships filter"
           ],
-          "correct_answer": "Genom att ange post_type i register_taxonomy eller register_taxonomy_for_object_type",
+          "correct_answer": "Genom register_taxonomy med post_type-argument eller register_taxonomy_for_object_type",
           "active": false,
           "selected_answer": ""
         },
@@ -216,12 +216,12 @@
           "id": 27,
           "question": "Vad gör posts_per_page i WP_Query?",
           "answers": [
-            "Bestämmer hur många inlägg som ska visas per sida",
-            "Räknar totala antalet inlägg",
-            "Sätter maxgränsen för inlägg",
-            "Aktiverar sidnumrering"
+            "Kontrollerar antalet poster som returneras per sidförfrågan i WordPress-loopen",
+            "Definierar standardvärdet för paginering i admin-gränssnittet",
+            "Hanterar cache-lagring av poster baserat på sidantal",
+            "Optimerar databasfrågor genom att begränsa resultatmängden"
           ],
-          "correct_answer": "Bestämmer hur många inlägg som ska visas per sida",
+          "correct_answer": "Kontrollerar antalet poster som returneras per sidförfrågan i WordPress-loopen",
           "active": false,
           "selected_answer": ""
         },
@@ -229,12 +229,12 @@
           "id": 28,
           "question": "Vad används post_mime_type för i WP_Query?",
           "answers": [
-            "För att filtrera bilagor baserat på filtyp (image, video, etc)",
-            "För att ändra filformat",
-            "För att kontrollera filstorlek",
-            "För att validera filer"
+            "Filtrerar mediafiler i WordPress baserat på deras MIME-type klassificering",
+            "Hanterar filtypsvalidering vid uppladdning till mediabiblioteket",
+            "Kategoriserar innehållstyper i wp_posts-tabellen",
+            "Definierar tillåtna filformat för bilagor i WordPress"
           ],
-          "correct_answer": "För att filtrera bilagor baserat på filtyp (image, video, etc)",
+          "correct_answer": "Filtrerar mediafiler i WordPress baserat på deras MIME-type klassificering",
           "active": false,
           "selected_answer": ""
         },
@@ -242,12 +242,12 @@
           "id": 29,
           "question": "Hur används meta_key och meta_value i WP_Query?",
           "answers": [
-            "För att filtrera inlägg baserat på specifika metafältvärden",
-            "För att skapa nya metafält",
-            "För att räkna metafält",
-            "För att ta bort metafält"
+            "För avancerad filtrering av poster baserat på deras anpassade metadatavärden",
+            "För att indexera och sortera metadata i WordPress-databasen",
+            "För att skapa relationer mellan olika metadatafält",
+            "För att definiera standardvärden för nya metadataposter"
           ],
-          "correct_answer": "För att filtrera inlägg baserat på specifika metafältvärden",
+          "correct_answer": "För avancerad filtrering av poster baserat på deras anpassade metadatavärden",
           "active": false,
           "selected_answer": ""
         },
@@ -255,12 +255,12 @@
           "id": 30,
           "question": "Vad gör get_query_var i WordPress?",
           "answers": [
-            "Hämtar värden från den aktuella WordPress-queryn",
-            "Skapar nya query-variabler",
-            "Ändrar query-strängen",
-            "Rensar query-variabler"
+            "Hämtar och validerar värden från den aktiva WordPress query-kontexten",
+            "Skapar temporära variabler för WordPress loopen",
+            "Modifierar query-parametrar under sidladdningen",
+            "Hanterar variabelöverföring mellan olika WordPress queries"
           ],
-          "correct_answer": "Hämtar värden från den aktuella WordPress-queryn",
+          "correct_answer": "Hämtar och validerar värden från den aktiva WordPress query-kontexten",
           "active": false,
           "selected_answer": ""
         },
@@ -268,12 +268,12 @@
           "id": 31,
           "question": "Vad betyder 'relation' i en tax_query eller meta_query?",
           "answers": [
-            "Anger om villkoren ska kombineras med AND eller OR",
-            "Skapar relationer mellan tabeller",
-            "Definierar förhållandet mellan inlägg",
-            "Anger databasrelationer"
+            "Definierar logiska operatorer för att kombinera flera query-villkor",
+            "Skapar hierarkiska relationer mellan taxonomier",
+            "Hanterar kopplingen mellan posts och metadata",
+            "Styr databasoptimering för komplexa queries"
           ],
-          "correct_answer": "Anger om villkoren ska kombineras med AND eller OR",
+          "correct_answer": "Definierar logiska operatorer för att kombinera flera query-villkor",
           "active": false,
           "selected_answer": ""
         },
@@ -281,12 +281,12 @@
           "id": 32,
           "question": "Vad är 'field' i en tax_query?",
           "answers": [
-            "Anger vilket fält i taxonomin som ska matchas (term_id, slug, name)",
-            "Skapar ett nytt fält i databasen",
-            "Definierar ett formulärfält",
-            "Anger fälttypen för data"
+            "Specificerar vilket taxonomifält som ska användas för matchning",
+            "Definierar indexeringsmetoden för taxonomisökningar",
+            "Konfigurerar cache-hantering för taxonomidata",
+            "Anger sorteringsordning för taxonomitermer"
           ],
-          "correct_answer": "Anger vilket fält i taxonomin som ska matchas (term_id, slug, name)",
+          "correct_answer": "Specificerar vilket taxonomifält som ska användas för matchning",
           "active": false,
           "selected_answer": ""
         },
@@ -294,12 +294,12 @@
           "id": 33,
           "question": "Vad gör $wpdb->prepare och när ska det användas?",
           "answers": [
-            "Säkrar SQL-frågor mot injektioner genom att escapea värden, bör användas när frågan innehåller variabler",
-            "Förbereder databasen för stora frågor",
-            "Optimerar SQL-frågor för bättre prestanda",
-            "Konverterar SQL till WordPress-format"
+            "Förbereder SQL-frågor genom parametrisering för att förhindra injektionsattacker",
+            "Optimerar databasfrågor genom att analysera exekveringsplanen",
+            "Validerar SQL-syntax och databaskompatibilitet före körning",
+            "Konverterar WordPress-queries till databasspecifika kommandon"
           ],
-          "correct_answer": "Säkrar SQL-frågor mot injektioner genom att escapea värden, bör användas när frågan innehåller variabler",
+          "correct_answer": "Förbereder SQL-frågor genom parametrisering för att förhindra injektionsattacker",
           "active": false,
           "selected_answer": ""
         },
@@ -307,12 +307,12 @@
           "id": 34,
           "question": "Vad är skillnaden mellan $wpdb->get_results och $wpdb->get_var?",
           "answers": [
-            "get_results returnerar flera rader medan get_var returnerar ett enskilt värde",
-            "get_results är snabbare än get_var",
-            "get_var används endast för numeriska värden",
-            "Det finns ingen skillnad"
+            "Get_results hanterar komplett resultatset medan get_var extraherar enskilda värden",
+            "Get_results cachar resultatet medan get_var exekverar direkt",
+            "Get_results stödjer komplexa queries medan get_var är för enkla sökningar",
+            "Get_results kräver prepare() medan get_var hanterar säkerhet automatiskt"
           ],
-          "correct_answer": "get_results returnerar flera rader medan get_var returnerar ett enskilt värde",
+          "correct_answer": "Get_results hanterar komplett resultatset medan get_var extraherar enskilda värden",
           "active": false,
           "selected_answer": ""
         },
@@ -320,12 +320,12 @@
           "id": 35,
           "question": "Hur hanterar man fel i $wpdb-frågor?",
           "answers": [
-            "Kontrollera $wpdb->last_error och använd $wpdb->show_errors()",
-            "Använd try-catch block",
-            "Felen hanteras automatiskt",
-            "Skriv till error_log"
+            "Genom att använda last_error och show_errors() för feldetektering och debugging",
+            "Med WordPress inbyggda error logging system och debug-mode",
+            "Via try-catch block och custom error handlers",
+            "Genom att implementera wpdb_error hooks och callbacks"
           ],
-          "correct_answer": "Kontrollera $wpdb->last_error och använd $wpdb->show_errors()",
+          "correct_answer": "Genom att använda last_error och show_errors() för feldetektering och debugging",
           "active": false,
           "selected_answer": ""
         },
@@ -333,12 +333,12 @@
           "id": 36,
           "question": "När bör man använda $wpdb istället för WP_Query?",
           "answers": [
-            "När man behöver köra anpassade SQL-frågor eller arbeta med custom tabeller",
-            "När man vill ha bättre prestanda",
-            "När man arbetar med inlägg",
-            "När man hanterar användardata"
+            "Vid behov av custom SQL-queries eller arbete med egna databastabeller",
+            "När prestandan är kritisk och cachning behöver optimeras",
+            "För komplexa datarelationer som involverar flera tabeller",
+            "Vid hantering av stora datamängder och batch-processer"
           ],
-          "correct_answer": "När man behöver köra anpassade SQL-frågor eller arbeta med custom tabeller",
+          "correct_answer": "Vid behov av custom SQL-queries eller arbete med egna databastabeller",
           "active": false,
           "selected_answer": ""
         },
@@ -346,12 +346,12 @@
           "id": 37,
           "question": "Vad är $wpdb->insert och när används det?",
           "answers": [
-            "En säker metod för att lägga till rader i databasen med automatisk escaping",
-            "Ett sätt att skapa nya tabeller",
-            "En funktion för att importera data",
-            "En metod för att kopiera tabeller"
+            "En säker metod för databasinsertion med automatisk parametersanering",
+            "Ett optimerat gränssnitt för batch-inserting av multipla rader",
+            "En wrapper-funktion för att hantera transaktionssäker datainsertion",
+            "Ett API för att hantera relationella databasoperationer"
           ],
-          "correct_answer": "En säker metod för att lägga till rader i databasen med automatisk escaping",
+          "correct_answer": "En säker metod för databasinsertion med automatisk parametersanering",
           "active": false,
           "selected_answer": ""
         },
@@ -528,12 +528,12 @@
           "id": 51,
           "question": "Vad är Headless WordPress?",
           "answers": [
-            "En arkitektur där WordPress används som backend/CMS medan frontend byggs separat med valfritt ramverk som React/Vue",
-            "En implementation där WordPress REST API används för att servera innehåll till mobila appar via GraphQL",
-            "En konfiguration där WordPress fungerar som en microservice i en större API-first arkitektur",
-            "En setup där WordPress content distribueras via CDN med server-side rendering"
+            "En setup där WordPress hanterar innehåll medan frontend byggs med moderna ramverk",
+            "En implementation för att hantera innehåll via REST API och GraphQL-endpoints",
+            "En arkitektur där WordPress fungerar som en fristående innehållshanterare",
+            "Ett system där WordPress distribuerar innehåll via API-first principer"
           ],
-          "correct_answer": "En arkitektur där WordPress används som backend/CMS medan frontend byggs separat med valfritt ramverk som React/Vue",
+          "correct_answer": "En setup där WordPress hanterar innehåll medan frontend byggs med moderna ramverk",
           "active": false,
           "selected_answer": ""
         },
@@ -541,12 +541,12 @@
           "id": 52,
           "question": "Hur konfigurerar man WordPress för headless användning?",
           "answers": [
-            "Aktivera REST API, konfigurera CORS, installera JWT-autentisering och säkerställ rätt API-endpoints via WP REST API",
-            "Implementera GraphQL schema, konfigurera OAuth2 och sätta upp webhook triggers för content updates",
-            "Konfigurera reverse proxy med nginx, implementera cache invalidation och sätta upp SSR middleware",
-            "Installera WPGraphQL, konfigurera statisk site generator och implementera preview middleware"
+            "Aktivera REST API och konfigurera nödvändiga säkerhetsinställningar",
+            "Implementera GraphQL-schema och sätta upp webhook-triggers",
+            "Konfigurera API-endpoints och installera autentiseringsverktyg",
+            "Sätta upp headless-miljön med nödvändiga plugins och API-konfigurationer"
           ],
-          "correct_answer": "Aktivera REST API, konfigurera CORS, installera JWT-autentisering och säkerställ rätt API-endpoints via WP REST API",
+          "correct_answer": "Aktivera REST API och konfigurera nödvändiga säkerhetsinställningar",
           "active": false,
           "selected_answer": ""
         }
@@ -837,66 +837,66 @@
       "questions": [
         {
           "id": 31,
-          "question": "Vilka hooks används för att modifiera produktpriser i WooCommerce?",
+          "question": "Hur modifierar man produktpriser i WooCommerce?",
           "answers": [
-            "woocommerce_product_get_price och woocommerce_product_get_regular_price",
-            "wc_get_price och wc_modify_price",
-            "woocommerce_price_filter och wc_price_handler",
-            "product_price_update och wc_price_modifier"
+            "Genom woocommerce_product_get_price filter och price modification hooks",
+            "Implementerar en custom price calculator med WC_Product klassen",
+            "Använder inbyggda prismodifierare via WooCommerce API",
+            "Modifierar priser direkt genom product_price filtret och databaskoppling"
           ],
-          "correct_answer": "woocommerce_product_get_price och woocommerce_product_get_regular_price",
+          "correct_answer": "Genom woocommerce_product_get_price filter och price modification hooks",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 32,
-          "question": "Hur hämtar man en WooCommerce order programmatiskt?",
+          "question": "Hur hämtar man en specifik order i WooCommerce?",
           "answers": [
-            "wc_get_order() med order-ID som parameter",
-            "get_wc_order() med order-nummer",
-            "WC_Order::get_order() med order-ID",
-            "WooCommerce::get_order() med order-data"
+            "Använder WooCommerce API med get_order() och specifika orderparametrar",
+            "Hämtar orderdata direkt från WordPress databasen med custom queries",
+            "Implementerar WC_Order klassen med inbyggda sökfunktioner",
+            "Använder order management system via WooCommerce hooks"
           ],
-          "correct_answer": "wc_get_order() med order-ID som parameter",
+          "correct_answer": "Använder WooCommerce API med get_order() och specifika orderparametrar",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 33,
-          "question": "Vilken hook används för att modifiera checkout-fält i WooCommerce?",
+          "question": "Hur anpassar man checkout-fälten i WooCommerce?",
           "answers": [
-            "woocommerce_checkout_fields för att filtrera checkout-fältarrayen",
-            "wc_modify_checkout för att ändra checkout-formuläret",
-            "checkout_form_fields för att uppdatera fält",
-            "wc_checkout_update för att modifiera checkout"
+            "Modifierar checkout-processen via WooCommerce filter hooks",
+            "Implementerar custom checkout fields genom WC_Checkout klassen",
+            "Använder inbyggda checkout-anpassningar i WooCommerce API",
+            "Skapar en anpassad checkout-template med field modifiers"
           ],
-          "correct_answer": "woocommerce_checkout_fields för att filtrera checkout-fältarrayen",
+          "correct_answer": "Modifierar checkout-processen via WooCommerce filter hooks",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 34,
-          "question": "Hur lägger man till en custom order status i WooCommerce?",
+          "question": "Hur implementerar man en anpassad orderstatus?",
           "answers": [
-            "Via register_post_status() och wc_register_order_status hooks",
-            "Genom att använda add_wc_status() funktion",
-            "Med hjälp av WC_Order::add_status()",
-            "Via WooCommerce inställningar i admin"
+            "Registrerar ny status genom WooCommerce order status API",
+            "Skapar custom post status med WordPress register_post_status()",
+            "Implementerar statushantering via WC_Order klassens metoder",
+            "Använder order management hooks för statusmodifiering"
           ],
-          "correct_answer": "Via register_post_status() och wc_register_order_status hooks",
+          "correct_answer": "Skapar custom post status med WordPress register_post_status()",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 35,
-          "question": "Hur hämtar man alla produkter i en specifik kategori via WooCommerce API?",
+          "question": "Hur filtrerar man produkter efter kategori?",
           "answers": [
-            "Genom WC_Product_Query med category som argument",
-            "Via get_products_by_category() funktion",
-            "Med hjälp av WC::get_category_products()",
-            "Genom standard WordPress taxonomi-queries"
+            "Använder WC_Product_Query med taxonomifilter",
+            "Implementerar custom product filtering genom kategori-hooks",
+            "Skapar avancerade produktfilter med WooCommerce API",
+            "Filtrerar via WordPress taxonomi-queries och produktrelationer"
           ],
-          "correct_answer": "Genom WC_Product_Query med category som argument",
+          "correct_answer": "Använder WC_Product_Query med taxonomifilter",
           "active": false,
           "selected_answer": ""
         },
@@ -904,12 +904,12 @@
           "id": 36,
           "question": "Vilken hook används för att modifiera varukorgens innehåll?",
           "answers": [
-            "woocommerce_before_calculate_totals för att påverka cart-beräkningar",
-            "wc_cart_update för att ändra varukorgen",
-            "modify_wc_cart för att uppdatera innehåll",
-            "cart_contents_update för att modifiera data"
+            "woocommerce_before_calculate_totals",
+            "Använder cart_contents_changed hook med beräkningsparametrar",
+            "Implementerar WooCommerce Cart API med modify_cart() funktion",
+            "wc_cart_update med callback för prisberäkning"
           ],
-          "correct_answer": "woocommerce_before_calculate_totals för att påverka cart-beräkningar",
+          "correct_answer": "woocommerce_before_calculate_totals",
           "active": false,
           "selected_answer": ""
         },
@@ -917,12 +917,12 @@
           "id": 37,
           "question": "Hur skapar man en order programmatiskt i WooCommerce?",
           "answers": [
-            "Via wc_create_order() och $order->set_address() metoder",
-            "Genom att använda WC_Order->create()",
-            "Med new WC_Order() konstruktor",
-            "Via WooCommerce::create_new_order()"
+            "Använder WC_Order API med create() och set_address()",
+            "Implementerar en ny order genom WooCommerce order management system",
+            "Via wc_create_order() med kundinformation",
+            "Skapar orderdata direkt i databasen med custom queries"
           ],
-          "correct_answer": "Via wc_create_order() och $order->set_address() metoder",
+          "correct_answer": "Via wc_create_order() med kundinformation",
           "active": false,
           "selected_answer": ""
         },
@@ -930,38 +930,38 @@
           "id": 38,
           "question": "Hur hanterar man WooCommerce REST API autentisering?",
           "answers": [
-            "Med consumer_key och consumer_secret via REST API authentication",
-            "Genom standard WordPress login",
-            "Via WooCommerce admin tokens",
-            "Med hjälp av API nyckel-generering"
+            "Genererar och använder consumer keys för API-åtkomst",
+            "Implementerar OAuth2 med WooCommerce authentication endpoints",
+            "Konfigurerar API-nycklar via WordPress REST API settings",
+            "Använder JWT tokens för säker API-kommunikation"
           ],
-          "correct_answer": "Med consumer_key och consumer_secret via REST API authentication",
+          "correct_answer": "Genererar och använder consumer keys för API-åtkomst",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 39,
-          "question": "Vilken hook används för att modifiera e-post innehåll i WooCommerce?",
+          "question": "Vilken hook används för att modifiera e-post innehåll?",
           "answers": [
-            "woocommerce_email_order_details och woocommerce_email_content",
-            "wc_modify_email och wc_email_template",
-            "email_content_filter och wc_mail_update",
-            "woocommerce_mail_modify och order_email_content"
+            "woocommerce_email_content",
+            "Använder email_template_hooks för innehållsmodifiering",
+            "Via WC_Emails klassens filter för innehållshantering",
+            "Implementerar custom email templates med WooCommerce mail API"
           ],
-          "correct_answer": "woocommerce_email_order_details och woocommerce_email_content",
+          "correct_answer": "woocommerce_email_content",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 40,
-          "question": "Hur lägger man till custom meta data till en produkt i WooCommerce?",
+          "question": "Hur lägger man till custom meta data till en produkt?",
           "answers": [
-            "Via $product->update_meta_data() och $product->save()",
-            "Genom add_post_meta() för produkt-poster",
-            "Med WC_Product::add_meta()",
-            "Via standard WordPress meta API"
+            "Använder update_post_meta() direkt på produkten",
+            "Via WC_Product->update_meta_data() med custom fields",
+            "Implementerar WooCommerce metadata API för produkter",
+            "Skapar custom product fields genom meta_box registration"
           ],
-          "correct_answer": "Via $product->update_meta_data() och $product->save()",
+          "correct_answer": "Via WC_Product->update_meta_data() med custom fields",
           "active": false,
           "selected_answer": ""
         },
@@ -970,9 +970,9 @@
           "question": "Vilka conditional tags är specifika för WooCommerce?",
           "answers": [
             "is_shop(), is_product(), is_cart() och is_checkout()",
-            "is_store(), is_woo_page(), is_basket()",
-            "wc_is_shop(), wc_is_product(), wc_is_cart()",
-            "check_if_shop(), check_if_product(), check_if_cart()"
+            "wc_is_store() och wc_check_product()",
+            "Använder WooCommerce page checkers",
+            "Implementerar shop_conditional_tags med flera kontroller"
           ],
           "correct_answer": "is_shop(), is_product(), is_cart() och is_checkout()",
           "active": false,
@@ -980,27 +980,27 @@
         },
         {
           "id": 42,
-          "question": "Hur kan man modifiera shipping-metoder i WooCommerce?",
+          "question": "Hur kan man modifiera shipping-metoder?",
           "answers": [
-            "Genom att använda woocommerce_shipping_methods filter",
-            "Via shipping_method_update() funktion",
-            "Med WC_Shipping::modify_methods()",
-            "Genom att redigera shipping direkt i databasen"
+            "Via woocommerce_shipping_methods filter",
+            "Implementerar en custom shipping class med WC_Shipping",
+            "Använder shipping_method_update() med specifika parametrar",
+            "Modifierar shipping zones och metoder genom WooCommerce API"
           ],
-          "correct_answer": "Genom att använda woocommerce_shipping_methods filter",
+          "correct_answer": "Via woocommerce_shipping_methods filter",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 43,
-          "question": "Hur implementerar man en custom betalningsgateway i WooCommerce?",
+          "question": "Hur implementerar man en custom betalningsgateway?",
           "answers": [
-            "Genom att extends WC_Payment_Gateway och registrera via woocommerce_payment_gateways",
-            "Via add_payment_method() funktion",
-            "Genom att modifiera payment.php filen",
-            "Med hjälp av WooCommerce Payment API"
+            "Skapar en ny klass som extends WC_Payment_Gateway",
+            "Registrerar betalningsmetoden via payment_gateways filter",
+            "Implementerar WooCommerce Payment API med gateway handlers",
+            "Använder inbyggda gateway-klasser med anpassade inställningar"
           ],
-          "correct_answer": "Genom att extends WC_Payment_Gateway och registrera via woocommerce_payment_gateways",
+          "correct_answer": "Skapar en ny klass som extends WC_Payment_Gateway",
           "active": false,
           "selected_answer": ""
         },
@@ -1008,25 +1008,25 @@
           "id": 44,
           "question": "Hur kan man lägga till custom fält på produktsidan?",
           "answers": [
-            "Via woocommerce_before_add_to_cart_form och woocommerce_after_add_to_cart_form hooks",
-            "Genom att modifiera product-template.php",
-            "Med WC_Product::add_custom_fields()",
-            "Via WordPress custom fields API"
+            "Använder product_meta_fields hook",
+            "Via woocommerce_before_add_to_cart_form action",
+            "Implementerar custom product fields genom WC_Meta",
+            "Skapar produktfält med WooCommerce product field API"
           ],
-          "correct_answer": "Via woocommerce_before_add_to_cart_form och woocommerce_after_add_to_cart_form hooks",
+          "correct_answer": "Via woocommerce_before_add_to_cart_form action",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 45,
-          "question": "Hur hanterar man lager/inventory programmatiskt i WooCommerce?",
+          "question": "Hur hanterar man lager programmatiskt?",
           "answers": [
-            "Med wc_update_product_stock() och $product->set_stock_quantity()",
-            "Via update_inventory() funktion",
-            "Genom WC_Product_Stock::update()",
-            "Med direkta databasuppdateringar"
+            "Använder update_stock() med quantity parameter",
+            "Via WC_Product->set_stock_quantity() och save()",
+            "Implementerar inventory management genom WooCommerce API",
+            "Uppdaterar lagerdata direkt i produktdatabasen"
           ],
-          "correct_answer": "Med wc_update_product_stock() och $product->set_stock_quantity()",
+          "correct_answer": "Via WC_Product->set_stock_quantity() och save()",
           "active": false,
           "selected_answer": ""
         },
@@ -1034,23 +1034,23 @@
           "id": 46,
           "question": "Hur implementerar man custom produkttyper i WooCommerce?",
           "answers": [
-            "Genom att extends WC_Product och registrera via product_type_selector filter",
-            "Via add_product_type() funktion",
-            "Med WooCommerce Product API",
-            "Genom att modifiera product-types.php"
+            "Skapar en klass som extends WC_Product",
+            "Registrerar produkttypen via product_type_selector",
+            "Implementerar WooCommerce Product Type API",
+            "Använder custom_product_types hook med type definition"
           ],
-          "correct_answer": "Genom att extends WC_Product och registrera via product_type_selector filter",
+          "correct_answer": "Skapar en klass som extends WC_Product",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 47,
-          "question": "Vilka actions används för att lägga till innehåll före och efter produktlistan i butiken?",
+          "question": "Vilka actions används för att lägga till innehåll före och efter produktlistan?",
           "answers": [
             "woocommerce_before_shop_loop och woocommerce_after_shop_loop",
-            "before_product_list och after_product_list",
-            "wc_shop_loop_start och wc_shop_loop_end",
-            "product_list_before och product_list_after"
+            "Implementerar shop_loop_content hooks med position handlers",
+            "Använder product_list_wrapper med före/efter callbacks",
+            "Via WooCommerce template_hooks för produktlistor"
           ],
           "correct_answer": "woocommerce_before_shop_loop och woocommerce_after_shop_loop",
           "active": false,
@@ -1058,25 +1058,25 @@
         },
         {
           "id": 48,
-          "question": "Vilket filter används för att ändra texten på 'Lägg till i varukorg'-knappen på en enskild produktsida?",
+          "question": "Vilket filter används för att ändra 'Lägg till i varukorg'-knappens text?",
           "answers": [
-            "woocommerce_product_single_add_to_cart_text",
-            "wc_add_to_cart_button_text",
-            "woocommerce_cart_button_text",
-            "wc_modify_add_to_cart_text"
+            "Använder woocommerce_product_add_to_cart_text",
+            "Via add_to_cart_button_modifier med textparameter",
+            "Implementerar button_text_filter för cart actions",
+            "Modifierar cart button template med custom text"
           ],
-          "correct_answer": "woocommerce_product_single_add_to_cart_text",
+          "correct_answer": "Använder woocommerce_product_add_to_cart_text",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 49,
-          "question": "Vilken action används för att lägga till innehåll på tack-sidan efter en genomförd order?",
+          "question": "Vilken action används för att lägga till innehåll på tack-sidan?",
           "answers": [
             "woocommerce_thankyou",
-            "wc_order_complete",
-            "order_confirmation_page",
-            "woocommerce_order_completed"
+            "Implementerar order_completed_page hook",
+            "Via thank_you_page_content med custom callbacks",
+            "Använder WooCommerce order completion hooks"
           ],
           "correct_answer": "woocommerce_thankyou",
           "active": false,
@@ -1084,12 +1084,12 @@
         },
         {
           "id": 50,
-          "question": "Vilket filter används för att modifiera tillgängliga betalningsmetoder i kassan?",
+          "question": "Vilket filter används för att modifiera tillgängliga betalningsmetoder?",
           "answers": [
             "woocommerce_available_payment_gateways",
-            "wc_payment_methods",
-            "checkout_payment_options",
-            "woocommerce_payment_methods_filter"
+            "Modifierar payment_methods via gateway filter",
+            "Implementerar custom payment handler med method filtering",
+            "Använder WooCommerce payment gateway API"
           ],
           "correct_answer": "woocommerce_available_payment_gateways",
           "active": false,
@@ -1100,9 +1100,9 @@
           "question": "Vilka actions används för att lägga till innehåll före och efter 'Lägg till i varukorg'-formuläret?",
           "answers": [
             "woocommerce_before_add_to_cart_form och woocommerce_after_add_to_cart_form",
-            "before_cart_form och after_cart_form",
-            "wc_cart_form_start och wc_cart_form_end",
-            "cart_form_before och cart_form_after"
+            "Använder cart_form_wrapper hooks med position handlers",
+            "Via add_to_cart_form_content med custom callbacks",
+            "Implementerar WooCommerce cart form template hooks"
           ],
           "correct_answer": "woocommerce_before_add_to_cart_form och woocommerce_after_add_to_cart_form",
           "active": false,
@@ -1113,9 +1113,9 @@
           "question": "Vilka actions används för att modifiera innehåll före och efter varukorgen?",
           "answers": [
             "woocommerce_before_cart och woocommerce_after_cart",
-            "before_cart_content och after_cart_content",
-            "wc_cart_start och wc_cart_end",
-            "cart_page_before och cart_page_after"
+            "Implementerar cart_content_wrapper hooks",
+            "Via cart_page_modification med callbacks",
+            "Använder WooCommerce cart template actions"
           ],
           "correct_answer": "woocommerce_before_cart och woocommerce_after_cart",
           "active": false,
@@ -1126,9 +1126,9 @@
           "question": "Vilket filter används för att modifiera produktnamn i varukorgen?",
           "answers": [
             "woocommerce_cart_item_name",
-            "wc_product_name_in_cart",
-            "cart_product_title",
-            "woocommerce_item_title"
+            "Använder product_title_in_cart filter",
+            "Via cart_product_name_modifier",
+            "Implementerar WooCommerce cart item display filter"
           ],
           "correct_answer": "woocommerce_cart_item_name",
           "active": false,
@@ -1139,9 +1139,9 @@
           "question": "Vilka actions används för att lägga till innehåll före och efter ordergranskningen i kassan?",
           "answers": [
             "woocommerce_checkout_before_order_review och woocommerce_checkout_after_order_review",
-            "before_order_review och after_order_review",
-            "checkout_review_start och checkout_review_end",
-            "wc_order_review_before och wc_order_review_after"
+            "Via checkout_review_wrapper hooks",
+            "Implementerar order_review_content_modification",
+            "Använder WooCommerce checkout template actions"
           ],
           "correct_answer": "woocommerce_checkout_before_order_review och woocommerce_checkout_after_order_review",
           "active": false,
@@ -1152,9 +1152,9 @@
           "question": "Vilket filter används för att ändra ämnesraden i orderbekräftelse-mejl?",
           "answers": [
             "woocommerce_email_subject_customer_processing_order",
-            "wc_order_email_subject",
-            "order_confirmation_subject",
-            "woocommerce_mail_subject"
+            "Via email_subject_modifier filter",
+            "Implementerar order_confirmation_email_subject",
+            "Använder WooCommerce email template filter"
           ],
           "correct_answer": "woocommerce_email_subject_customer_processing_order",
           "active": false,
@@ -1165,9 +1165,9 @@
           "question": "Vilket filter används för att modifiera fraktmetoder och priser?",
           "answers": [
             "woocommerce_package_rates",
-            "wc_shipping_rates",
-            "shipping_methods_price",
-            "woocommerce_shipping_options"
+            "Implementerar shipping_calculator med prismodifiering",
+            "Använder WC_Shipping_Rate med custom price handlers",
+            "Via shipping_methods_modification hook"
           ],
           "correct_answer": "woocommerce_package_rates",
           "active": false,
@@ -1178,9 +1178,9 @@
           "question": "Var hittar man API-inställningar för att generera REST API-nycklar i WooCommerce?",
           "answers": [
             "WooCommerce → Inställningar → Avancerat → REST API",
-            "Under Verktyg → API-hantering",
-            "I WordPress → Utvecklarverktyg",
-            "Via Inställningar → API"
+            "Under API Management i WordPress-admin",
+            "Via WooCommerce Developer Settings",
+            "I WordPress REST API Configuration"
           ],
           "correct_answer": "WooCommerce → Inställningar → Avancerat → REST API",
           "active": false,
@@ -1190,12 +1190,12 @@
           "id": 64,
           "question": "Hur aktiverar man utvecklarläge (debugging) i WooCommerce?",
           "answers": [
-            "WooCommerce → Status → Verktyg → Aktivera WooCommerce debugging",
-            "Via wp-config.php inställningar",
-            "Under Inställningar → Utveckling",
-            "I WordPress debug-inställningar"
+            "Via WooCommerce Status → Verktyg → Enable Debugging",
+            "Genom att sätta WC_DEBUG konstant i wp-config.php",
+            "Aktiverar debug mode i WooCommerce inställningar",
+            "Implementerar WooCommerce debugging hooks"
           ],
-          "correct_answer": "WooCommerce → Status → Verktyg → Aktivera WooCommerce debugging",
+          "correct_answer": "Via WooCommerce Status → Verktyg → Enable Debugging",
           "active": false,
           "selected_answer": ""
         },
@@ -1203,12 +1203,12 @@
           "id": 65,
           "question": "Var konfigurerar man webhook endpoints för WooCommerce?",
           "answers": [
-            "WooCommerce → Inställningar → Avancerat → Webhooks",
-            "Under API-inställningar",
-            "Via Integrationer → Webhooks",
-            "I WordPress → Webhooks"
+            "Under Advanced Settings → Webhooks",
+            "Via WooCommerce REST API settings",
+            "I WordPress webhook configuration",
+            "Genom WooCommerce integration settings"
           ],
-          "correct_answer": "WooCommerce → Inställningar → Avancerat → Webhooks",
+          "correct_answer": "Under Advanced Settings → Webhooks",
           "active": false,
           "selected_answer": ""
         },
@@ -1216,12 +1216,12 @@
           "id": 66,
           "question": "Var hittar man loggfiler för WooCommerce-felsökning?",
           "answers": [
-            "WooCommerce → Status → Loggar",
-            "Under WordPress → Debug",
-            "I server error_log",
-            "Via Verktyg → Systemloggar"
+            "Status → Logs i WooCommerce admin",
+            "I WordPress debug.log fil",
+            "Via WooCommerce system status report",
+            "Under wp-content/wc-logs/"
           ],
-          "correct_answer": "WooCommerce → Status → Loggar",
+          "correct_answer": "Status → Logs i WooCommerce admin",
           "active": false,
           "selected_answer": ""
         },
@@ -1245,65 +1245,13 @@
       "id": 4,
       "questions": [
         {
-          "id": 41,
-          "question": "Vad är WordPress?",
-          "answers": [
-            "En CMS-plattform för att skapa webbplatser",
-            "En plugin för att hantera databasen",
-            "En kommandotolk för att hantera databasen",
-            "En plugin för att hantera databasen"
-          ],
-          "correct_answer": "En CMS-plattform för att skapa webbplatser",
-          "active": false,
-          "selected_answer": ""
-        },
-        {
-          "id": 42,
-          "question": "Hur registrerar man ett JavaScript i WordPress?",
-          "answers": [
-            "Använd wp_register_script() följt av wp_enqueue_script()",
-            "Lägg till <script> taggen direkt i header.php",
-            "Använd register_script() funktionen",
-            "Lägg till scriptet i functions.php med include()"
-          ],
-          "correct_answer": "Använd wp_register_script() följt av wp_enqueue_script()",
-          "active": false,
-          "selected_answer": ""
-        },
-        {
-          "id": 43,
-          "question": "Vad returnerar get_stylesheet_directory()?",
-          "answers": [
-            "Den absoluta serversökvägen till aktiva temats katalog",
-            "URL:en till temats stylesheet (style.css)",
-            "Namnet på det aktiva temat",
-            "Temats version nummer"
-          ],
-          "correct_answer": "Den absoluta serversökvägen till aktiva temats katalog",
-          "active": false,
-          "selected_answer": ""
-        },
-        {
-          "id": 44,
-          "question": "Vilken hook bör användas för att registrera scripts och styles i WordPress?",
-          "answers": [
-            "wp_enqueue_scripts",
-            "init",
-            "wp_head",
-            "after_setup_theme"
-          ],
-          "correct_answer": "wp_enqueue_scripts",
-          "active": false,
-          "selected_answer": ""
-        },
-        {
           "id": 45,
           "question": "Vad är skillnaden mellan add_action() och add_filter()?",
           "answers": [
             "add_action kör en funktion vid en specifik händelse, medan add_filter modifierar existerande data",
-            "add_action är för admin-panelen, add_filter är för frontend",
-            "add_action är för JavaScript, add_filter är för PHP",
-            "Det finns ingen skillnad, de gör samma sak"
+            "add_action returnerar alltid ett värde medan add_filter utför operationer utan returvärde",
+            "add_action används för att modifiera data innan det sparas, add_filter efter att det hämtats",
+            "add_action hanterar endast WordPress core-events medan add_filter kan användas för custom hooks"
           ],
           "correct_answer": "add_action kör en funktion vid en specifik händelse, medan add_filter modifierar existerande data",
           "active": false,
@@ -1314,9 +1262,9 @@
           "question": "Vad är skillnaden mellan wp_register_script() och wp_enqueue_script()?",
           "answers": [
             "wp_register_script registrerar scriptet för senare användning, wp_enqueue_script laddar in det direkt",
-            "wp_register_script är för externa scripts, wp_enqueue_script för interna",
-            "wp_register_script används i admin, wp_enqueue_script på frontend",
-            "Det är samma funktion med olika namn"
+            "wp_register_script är permanent medan wp_enqueue_script endast gäller för aktuell sidvisning",
+            "wp_register_script caching-optimerar scriptet medan wp_enqueue_script laddar det direkt",
+            "wp_register_script validerar dependencies medan wp_enqueue_script endast hanterar själva inladdningen"
           ],
           "correct_answer": "wp_register_script registrerar scriptet för senare användning, wp_enqueue_script laddar in det direkt",
           "active": false,
@@ -1327,9 +1275,9 @@
           "question": "Vad gör wp_localize_script()?",
           "answers": [
             "Gör PHP-variabler tillgängliga i JavaScript",
-            "Översätter JavaScript-filen till olika språk",
-            "Konverterar JavaScript till lokal fil",
-            "Ändrar språket i WordPress admin"
+            "Konverterar JavaScript-variabler till lokala språkinställningar",
+            "Optimerar script-prestanda genom att cacha lokalt",
+            "Anpassar script-output baserat på användarens geografiska plats"
           ],
           "correct_answer": "Gör PHP-variabler tillgängliga i JavaScript",
           "active": false,
@@ -1340,9 +1288,9 @@
           "question": "Vad gör is_admin() funktionen?",
           "answers": [
             "Kontrollerar om den aktuella sidan är i admin-området",
-            "Kontrollerar om användaren är en administratör",
-            "Skapar en ny admin-sida",
-            "Kontrollerar om admin-menyn är synlig"
+            "Verifierar administrativa rättigheter för den inloggade användaren",
+            "Testar om en specifik funktion kräver administratörsbehörighet",
+            "Validerar admin-ajax anrop från frontend"
           ],
           "correct_answer": "Kontrollerar om den aktuella sidan är i admin-området",
           "active": false,
@@ -1353,9 +1301,9 @@
           "question": "Vad är fördelen med att använda require_once __DIR__?",
           "answers": [
             "Ger absolut sökväg och förhindrar dubbel inkludering av filer",
-            "Gör koden snabbare att exekvera",
-            "Inkluderar alla filer i en mapp automatiskt",
-            "Är endast för användning i plugins"
+            "Möjliggör dynamisk filinkludering baserat på temats kontext",
+            "Optimerar PHP-cachning genom att validera filintegritet",
+            "Säkerställer korrekt filåtkomst i multisite-installationer"
           ],
           "correct_answer": "Ger absolut sökväg och förhindrar dubbel inkludering av filer",
           "active": false,
@@ -1366,9 +1314,9 @@
           "question": "Vad är en shortcode i WordPress?",
           "answers": [
             "En kort kod som kan infogas i innehåll för att generera dynamiskt innehåll",
-            "En förkortning för PHP-funktioner",
-            "En snabbkommando i WordPress-editorn",
-            "En kort version av en permalänk"
+            "Ett system för att optimera databasförfrågningar genom förkortade SQL-queries",
+            "En metod för att reducera storleken på WordPress-tema filer",
+            "Ett sätt att skapa snabbkommandon i WordPress admin-gränssnittet"
           ],
           "correct_answer": "En kort kod som kan infogas i innehåll för att generera dynamiskt innehåll",
           "active": false,
@@ -1379,9 +1327,9 @@
           "question": "Vad gör wp_kses_post()?",
           "answers": [
             "Sanerar HTML-innehåll och tillåter endast säkra HTML-taggar för inlägg",
-            "Skapar en ny post i WordPress",
-            "Krypterar postinnehåll",
-            "Komprimerar HTML-innehåll"
+            "Validerar post-metadata innan den sparas i databasen",
+            "Komprimerar post-innehåll för optimerad databas-lagring",
+            "Genererar en checksumma för post-innehåll för cache-validering"
           ],
           "correct_answer": "Sanerar HTML-innehåll och tillåter endast säkra HTML-taggar för inlägg",
           "active": false,
@@ -1392,9 +1340,9 @@
           "question": "Vad gör wp_get_attachment_image()?",
           "answers": [
             "Hämtar en HTML img-tagg för en specifik bild-bilaga",
-            "Laddar upp en ny bild till mediabiblioteket",
-            "Hämtar endast URL:en till en bild",
-            "Skapar en miniatyrbild"
+            "Genererar responsiva bildstorlekar baserat på användarens enhet",
+            "Returnerar bilddata i base64-format för inline användning",
+            "Skapar en cachad version av bilden med optimal komprimering"
           ],
           "correct_answer": "Hämtar en HTML img-tagg för en specifik bild-bilaga",
           "active": false,
@@ -1405,9 +1353,9 @@
           "question": "Vad gör wp_get_nav_menu_items()?",
           "answers": [
             "Hämtar alla menyposter för en specifik meny som en array",
-            "Skapar en ny navigationsmeny",
-            "Visar menyn på sidan",
-            "Hämtar endast menyns namn"
+            "Returnerar en cachad version av menystrukturen för bättre prestanda",
+            "Genererar HTML-strukturen för en specifik navigationsmeny",
+            "Validerar menyposterna mot användarens behörigheter"
           ],
           "correct_answer": "Hämtar alla menyposter för en specifik meny som en array",
           "active": false,
@@ -1418,9 +1366,9 @@
           "question": "Vad gör wp_get_nav_menu_object()?",
           "answers": [
             "Hämtar ett menypbjekt baserat på meny-ID eller slug",
-            "Skapar ett nytt menyobjekt",
-            "Hämtar alla menyer på sidan",
-            "Returnerar HTML-koden för en meny"
+            "Skapar en instans av WP_Nav_Menu_Object med optimerade cache-inställningar",
+            "Returnerar en komplett menystruktur inklusive alla undermenyer",
+            "Genererar ett JSON-objekt med menyns metadata och inställningar"
           ],
           "correct_answer": "Hämtar ett menypbjekt baserat på meny-ID eller slug",
           "active": false,
@@ -1431,9 +1379,9 @@
           "question": "Vad innehåller wp-admin mappen i WordPress?",
           "answers": [
             "Alla filer relaterade till WordPress administratörsgränssnitt",
-            "Alla teman och plugins",
-            "WordPress core-filer",
-            "Användaruppladdade mediafiler"
+            "Systemfiler för databashantering och användarautentisering",
+            "Cache-filer och temporära administrativa inställningar",
+            "Säkerhetskritiska konfigurationsfiler för backend"
           ],
           "correct_answer": "Alla filer relaterade till WordPress administratörsgränssnitt",
           "active": false,
@@ -1444,9 +1392,9 @@
           "question": "Vad innehåller wp-includes mappen?",
           "answers": [
             "WordPress core-filer och funktionsbibliotek",
-            "Användaruppladdade bilder och filer",
-            "Teman och plugins",
-            "Administrativa gränssnittsfiler"
+            "Externa dependencies och tredjepartsbibliotek",
+            "Temporära systemfiler och cache-data",
+            "Kompilerade JavaScript- och CSS-filer"
           ],
           "correct_answer": "WordPress core-filer och funktionsbibliotek",
           "active": false,
@@ -1457,9 +1405,9 @@
           "question": "Vad är wp-content mappen till för?",
           "answers": [
             "Innehåller teman, plugins och uppladdade mediafiler",
-            "Innehåller WordPress core-filer",
-            "Innehåller endast admin-filer",
-            "Innehåller endast databasfiler"
+            "Lagrar WordPress konfigurationsfiler och databasanslutningar",
+            "Hanterar cachning och temporära filer för innehållsoptimering",
+            "Innehåller systemloggar och felsökningsinformation"
           ],
           "correct_answer": "Innehåller teman, plugins och uppladdade mediafiler",
           "active": false,
@@ -1470,9 +1418,9 @@
           "question": "Vilka filer måste ett WordPress-tema minst innehålla?",
           "answers": [
             "style.css och index.php",
-            "functions.php och header.php",
-            "page.php och single.php",
-            "sidebar.php och footer.php"
+            "functions.php och template-parts/header.php",
+            "index.php och wp-config.php",
+            "style.css, functions.php och header.php"
           ],
           "correct_answer": "style.css och index.php",
           "active": false,
@@ -1483,9 +1431,9 @@
           "question": "Hur aktiverar man WordPress debugging?",
           "answers": [
             "Sätt WP_DEBUG till true i wp-config.php",
-            "Aktivera det i WordPress admin-panel",
-            "Lägg till debug.php i temamappen",
-            "Installera en debugging plugin"
+            "Aktivera debug-mode via wp-admin/debug-settings.php",
+            "Installera och konfigurera Debug Bar pluginet",
+            "Lägg till define('SCRIPT_DEBUG', true) i functions.php"
           ],
           "correct_answer": "Sätt WP_DEBUG till true i wp-config.php",
           "active": false,
@@ -1496,9 +1444,9 @@
           "question": "Var bör wp-config.php filen placeras?",
           "answers": [
             "I WordPress root-katalogen, en nivå ovanför public_html för bästa säkerhet",
-            "I wp-admin mappen",
-            "I wp-content mappen",
-            "I wp-includes mappen"
+            "I wp-content/config/ för optimal filseparation",
+            "I wp-admin/config/ för säker åtkomstbegränsning",
+            "I samma katalog som .htaccess för Apache-kompatibilitet"
           ],
           "correct_answer": "I WordPress root-katalogen, en nivå ovanför public_html för bästa säkerhet",
           "active": false,
@@ -1509,9 +1457,9 @@
           "question": "Var ska WordPress-databasen placeras?",
           "answers": [
             "På en MySQL/MariaDB-server, aldrig i webbrotskatalogen",
-            "I wp-content mappen",
-            "I wp-admin mappen",
-            "I samma mapp som wp-config.php"
+            "I en separat partition optimerad för databasåtkomst",
+            "I wp-content/database/ med korrekt kryptering",
+            "På samma server som webbfilerna för optimal prestanda"
           ],
           "correct_answer": "På en MySQL/MariaDB-server, aldrig i webbrotskatalogen",
           "active": false,
@@ -1522,9 +1470,9 @@
           "question": "Var hittar man WordPress error log som standard?",
           "answers": [
             "I wp-content/debug.log när WP_DEBUG_LOG är aktiverat",
-            "I wp-admin/error.log",
-            "I wp-includes/logs/",
-            "I WordPress databas"
+            "I server-root/logs/wordpress_error.log",
+            "I wp-admin/logs/ efter aktivering av debugging",
+            "I databasen under wp_system_logs tabellen"
           ],
           "correct_answer": "I wp-content/debug.log när WP_DEBUG_LOG är aktiverat",
           "active": false,
@@ -1535,9 +1483,9 @@
           "question": "Vilka template-filer måste namnges exakt i WordPress?",
           "answers": [
             "index.php, single.php, page.php, archive.php, functions.php",
-            "main.php, post.php, content.php",
-            "template.php, blog.php, home.php",
-            "wp-page.php, wp-post.php, wp-archive.php"
+            "main.php, content.php, loop.php, template.php",
+            "header.php, footer.php, sidebar.php, content-single.php",
+            "front-page.php, blog.php, category.php, tag.php"
           ],
           "correct_answer": "index.php, single.php, page.php, archive.php, functions.php",
           "active": false,
@@ -1548,9 +1496,9 @@
           "question": "Var lagras WordPress plugins?",
           "answers": [
             "I wp-content/plugins/ mappen",
-            "I wp-admin/plugins/ mappen",
-            "I wp-includes/plugins/ mappen",
-            "I temats plugins/ mapp"
+            "I en dedikerad plugins-databas för optimal prestanda",
+            "I wp-content/extensions/ med versionskontroll",
+            "I separata mappar baserat på plugin-typ"
           ],
           "correct_answer": "I wp-content/plugins/ mappen",
           "active": false,
@@ -1561,9 +1509,9 @@
           "question": "Är det en bra praxis att redigera plugin-filer direkt?",
           "answers": [
             "Nej, ändringar försvinner vid uppdateringar och kan skapa säkerhetsproblem",
-            "Ja, det är det snabbaste sättet att anpassa funktionalitet",
-            "Ja, så länge man gör en backup först",
-            "Ja, om man kommenterar sina ändringar"
+            "Ja, om ändringarna versionshanteras med Git",
+            "Ja, när ändringar dokumenteras i plugin-header",
+            "Ja, om man skapar en backup först i wp-content/backups"
           ],
           "correct_answer": "Nej, ändringar försvinner vid uppdateringar och kan skapa säkerhetsproblem",
           "active": false,
@@ -1574,9 +1522,9 @@
           "question": "Vad är det korrekta sättet att anpassa en plugins funktionalitet?",
           "answers": [
             "Använd plugins hooks och filters eller skapa en egen plugin",
-            "Redigera plugin-filerna direkt",
-            "Kopiera plugin-filerna till temamappen",
-            "Stäng av automatiska uppdateringar"
+            "Modifiera plugin-filer genom wp-content/modifications/",
+            "Implementera ändringar via wp-config.php override",
+            "Använd WordPress Plugin Editor med versionskontroll"
           ],
           "correct_answer": "Använd plugins hooks och filters eller skapa en egen plugin",
           "active": false,
@@ -1587,9 +1535,9 @@
           "question": "Vad gör prioritetsparametern i add_action() och add_filter()?",
           "answers": [
             "Bestämmer i vilken ordning funktioner körs, lägre nummer körs först",
-            "Anger hur viktig funktionen är för WordPress",
-            "Bestämmer om funktionen ska köras i admin eller frontend",
-            "Anger hur mycket serverresurser funktionen får använda"
+            "Anger processorprioritet för funktionsexekvering",
+            "Definierar cachning-prioritet för funktionsresultat",
+            "Styr hur WordPress hanterar samtidiga funktionsanrop"
           ],
           "correct_answer": "Bestämmer i vilken ordning funktioner körs, lägre nummer körs först",
           "active": false,
@@ -1600,9 +1548,9 @@
           "question": "Vad gör get_template_part()?",
           "answers": [
             "Inkluderar en del av en template-fil på ett modulärt sätt",
-            "Hämtar hela temats template",
-            "Skapar en ny template-fil",
-            "Visar temats header"
+            "Hämtar cachade template-komponenter för snabbare rendering",
+            "Extraherar specifika delar av en template för återanvändning",
+            "Genererar template-fragment baserat på current_theme_supports()"
           ],
           "correct_answer": "Inkluderar en del av en template-fil på ett modulärt sätt",
           "active": false,
@@ -1613,9 +1561,9 @@
           "question": "Var bör wp_head() placeras i ett tema?",
           "answers": [
             "I slutet av head-taggen i header.php",
-            "I början av body-taggen",
-            "I slutet av footer.php",
-            "I functions.php"
+            "Direkt efter öppnande head-tagg i header.php",
+            "Precis före wp_footer() i footer.php",
+            "I början av body-taggen för bästa prestanda"
           ],
           "correct_answer": "I slutet av head-taggen i header.php",
           "active": false,
@@ -1625,10 +1573,10 @@
           "id": 72,
           "question": "Var bör wp_footer() placeras i ett tema?",
           "answers": [
+            "I början av footer.php för bästa prestanda",
             "Precis före avslutande body-tagg i footer.php",
-            "I början av footer.php",
-            "I header.php",
-            "I slutet av varje sida"
+            "Efter avslutande html-tagg för att ladda sist",
+            "I slutet av header.php för att förbättra laddningstiden"
           ],
           "correct_answer": "Precis före avslutande body-tagg i footer.php",
           "active": false,
@@ -1638,10 +1586,10 @@
           "id": 73,
           "question": "Vad gör the_content() funktionen?",
           "answers": [
+            "Renderar endast text och bilder från inlägget",
             "Visar innehållet för ett inlägg eller en sida med formatering och shortcodes",
-            "Hämtar rå text från ett inlägg",
-            "Skapar nytt innehåll",
-            "Visar endast bilder från innehållet"
+            "Skriver ut innehållet utan att köra filter eller shortcodes",
+            "Returnerar innehållet som ett oformaterat strängvärde"
           ],
           "correct_answer": "Visar innehållet för ett inlägg eller en sida med formatering och shortcodes",
           "active": false,
@@ -1651,10 +1599,10 @@
           "id": 74,
           "question": "När körs 'init' hooken i WordPress?",
           "answers": [
+            "När första pluginen laddas in i WordPress",
             "Efter WordPress har initialiserats men före headers skickas",
-            "Innan WordPress har laddat",
-            "Efter att sidan har laddats klart",
-            "Endast i admin-panelen"
+            "Direkt efter att databasen har kopplats upp",
+            "När temat börjar ladda sina filer"
           ],
           "correct_answer": "Efter WordPress har initialiserats men före headers skickas",
           "active": false,
@@ -1664,10 +1612,10 @@
           "id": 75,
           "question": "Vad gör get_permalink()?",
           "answers": [
+            "Genererar en temporär länk till ett inlägg",
+            "Hämtar endast URL-sluggen för ett inlägg",
             "Returnerar den fullständiga URL:en till ett specifikt inlägg eller sida",
-            "Skapar en ny permalänk",
-            "Ändrar permalänkstrukturen",
-            "Visar endast slug-delen av URL:en"
+            "Skapar en kortlänk för delning på sociala medier"
           ],
           "correct_answer": "Returnerar den fullständiga URL:en till ett specifikt inlägg eller sida",
           "active": false,
@@ -1677,10 +1625,10 @@
           "id": 76,
           "question": "Vad gör get_post()?",
           "answers": [
+            "Returnerar endast metadata för ett inlägg",
             "Hämtar ett komplett post-objekt från databasen baserat på post ID",
-            "Skapar ett nytt inlägg",
-            "Visar det senaste inlägget",
-            "Hämtar endast post-titeln"
+            "Hämtar den senaste publicerade posten",
+            "Returnerar en array med alla posts titlar"
           ],
           "correct_answer": "Hämtar ett komplett post-objekt från databasen baserat på post ID",
           "active": false,
@@ -1690,10 +1638,10 @@
           "id": 77,
           "question": "Vad gör wp_insert_post()?",
           "answers": [
+            "Uppdaterar endast metadata för existerande inlägg",
             "Skapar ett nytt inlägg eller uppdaterar ett befintligt i databasen",
-            "Infogar HTML i ett inlägg",
-            "Lägger till en bild i ett inlägg",
-            "Flyttar ett inlägg till papperskorgen"
+            "Infogar ett inlägg endast om det inte redan finns",
+            "Kopierar ett inlägg till en ny post-typ"
           ],
           "correct_answer": "Skapar ett nytt inlägg eller uppdaterar ett befintligt i databasen",
           "active": false,
@@ -1703,10 +1651,10 @@
           "id": 78,
           "question": "Vad gör wp_trim_words()?",
           "answers": [
+            "Tar bort HTML-taggar från en textsträng",
+            "Konverterar text till lowercase",
             "Begränsar text till ett specifikt antal ord och lägger till utdragstecken",
-            "Tar bort HTML från text",
-            "Formaterar text till versaler",
-            "Räknar antal ord i en text"
+            "Rensar whitespace i början och slutet av en text"
           ],
           "correct_answer": "Begränsar text till ett specifikt antal ord och lägger till utdragstecken",
           "active": false,
@@ -1716,10 +1664,10 @@
           "id": 79,
           "question": "Vad gör body_class() funktionen?",
           "answers": [
+            "Skapar anpassade CSS-regler för body-elementet",
             "Lägger till dynamiska CSS-klasser på body-elementet baserat på aktuell sida/kontext",
-            "Stylar body-elementet med inline CSS",
-            "Ändrar bakgrundsfärgen på body-elementet",
-            "Skapar en ny CSS-fil för body-styling"
+            "Definierar standardstilar för body i tema-filen",
+            "Hanterar responsiva klasser för olika skärmstorlekar"
           ],
           "correct_answer": "Lägger till dynamiska CSS-klasser på body-elementet baserat på aktuell sida/kontext",
           "active": false,
@@ -1729,10 +1677,10 @@
           "id": 80,
           "question": "Vad är huvudskillnaden mellan Pages och Posts i WordPress?",
           "answers": [
+            "Posts har alltid kommentarer aktiverade, Pages har inte det",
             "Pages är för statiskt innehåll och hierarkiskt organiserade, Posts är för tidsbundet innehåll med kategorier/taggar",
-            "Pages är endast för förstasidan, Posts är för alla andra sidor",
-            "Pages kan endast skapas av administratörer, Posts kan skapas av alla användare",
-            "Pages visas alltid i menyn, Posts visas aldrig i menyn"
+            "Pages kan endast redigeras av administratörer, Posts av alla författare",
+            "Posts indexeras av sökmotorer, Pages är alltid exkluderade"
           ],
           "correct_answer": "Pages är för statiskt innehåll och hierarkiskt organiserade, Posts är för tidsbundet innehåll med kategorier/taggar",
           "active": false,
@@ -1742,10 +1690,10 @@
           "id": 81,
           "question": "Vad gör wp_get_attachment_url()?",
           "answers": [
+            "Genererar en miniatyrbild av en uppladdad fil",
             "Returnerar URL:en till en uppladdad fil baserat på attachment ID",
-            "Skapar en ny bilaga i mediabiblioteket",
-            "Hämtar HTML-koden för en bilaga",
-            "Visar en lista med alla bilagor"
+            "Skapar en temporär länk till en mediefil",
+            "Hämtar metadata för en bifogad fil"
           ],
           "correct_answer": "Returnerar URL:en till en uppladdad fil baserat på attachment ID",
           "active": false,
@@ -1755,10 +1703,10 @@
           "id": 82,
           "question": "Vad är skillnaden mellan get_header() och include('header.php')?",
           "answers": [
+            "include() är snabbare men mindre säkert",
+            "get_header() fungerar endast med child themes",
             "get_header() tillåter teman att åsidosätta header och kör WordPress hooks, include() gör inte det",
-            "get_header() är snabbare än include()",
-            "Det finns ingen skillnad mellan dem",
-            "include() är säkrare att använda"
+            "include() stödjer conditional tags, get_header() gör inte det"
           ],
           "correct_answer": "get_header() tillåter teman att åsidosätta header och kör WordPress hooks, include() gör inte det",
           "active": false,
@@ -1768,10 +1716,10 @@
           "id": 83,
           "question": "Vad är en Child Theme i WordPress?",
           "answers": [
+            "Ett tema med minimalistisk design",
             "Ett tema som ärver från ett annat tema men kan ha egna anpassningar",
-            "Ett tema designat för barn-relaterade webbplatser",
-            "Ett förenklat tema med färre funktioner",
-            "Ett tema som är beroende av ett plugin"
+            "Ett tema som automatiskt uppdateras med föräldratemat",
+            "Ett tema som endast fungerar med specifika plugins"
           ],
           "correct_answer": "Ett tema som ärver från ett annat tema men kan ha egna anpassningar",
           "active": false,
@@ -1781,10 +1729,10 @@
           "id": 85,
           "question": "Vad är skillnaden mellan get_template_directory() och get_stylesheet_directory()?",
           "answers": [
+            "get_template_directory() fungerar endast med standardteman",
             "get_stylesheet_directory() pekar på aktiva temat medan get_template_directory() pekar på föräldra-temat",
-            "Det finns ingen skillnad",
-            "get_template_directory() är nyare version",
-            "get_stylesheet_directory() fungerar endast med child themes"
+            "get_stylesheet_directory() hanterar endast CSS-filer",
+            "get_template_directory() används endast i admin-panelen"
           ],
           "correct_answer": "get_stylesheet_directory() pekar på aktiva temat medan get_template_directory() pekar på föräldra-temat",
           "active": false,
@@ -1794,10 +1742,10 @@
           "id": 86,
           "question": "Vad är en Custom Post Type?",
           "answers": [
+            "Ett inlägg med anpassade metadata-fält",
             "En anpassad innehållstyp med egen funktionalitet och fält",
-            "Ett specialformaterat blogginlägg",
-            "En temporär post som raderas automatiskt",
-            "En post som endast administratörer kan se"
+            "Ett inlägg som endast visas för inloggade användare",
+            "En särskild kategori för specifika inläggstyper"
           ],
           "correct_answer": "En anpassad innehållstyp med egen funktionalitet och fält",
           "active": false,
@@ -1807,10 +1755,10 @@
           "id": 87,
           "question": "Vad är wp-cron.php i WordPress?",
           "answers": [
+            "En cache-hanterare för databasförfrågningar",
             "Ett system för att schemalägga återkommande uppgifter i WordPress",
-            "En fil för att hantera databaskopplingar",
-            "Ett säkerhetsverktyg",
-            "En loggfil för felsökning"
+            "En säkerhetsmodul för att förhindra brute force-attacker",
+            "Ett verktyg för att optimera databastabeller"
           ],
           "correct_answer": "Ett system för att schemalägga återkommande uppgifter i WordPress",
           "active": false,
@@ -1820,10 +1768,10 @@
           "id": 88,
           "question": "Vad är nonce i WordPress?",
           "answers": [
+            "En temporär autentiseringstoken för REST API",
             "En säkerhetskod för att skydda formulär och länkar mot CSRF-attacker",
-            "Ett unikt ID för varje WordPress-installation",
-            "En temporär cache-fil",
-            "En typ av cookie för inloggning"
+            "Ett system för att hantera användarrättigheter",
+            "En hash för att verifiera filintegritet"
           ],
           "correct_answer": "En säkerhetskod för att skydda formulär och länkar mot CSRF-attacker",
           "active": false,
@@ -1833,10 +1781,10 @@
           "id": 89,
           "question": "Var i WordPress admin hittar man inställningar för permalänkar?",
           "answers": [
+            "Under Settings > Writing",
             "Under Settings > Permalinks",
-            "Under Tools > Permalinks",
-            "Under General > URLs",
-            "Under Appearance > Links"
+            "Under Tools > URL Settings",
+            "Under General > SEO Options"
           ],
           "correct_answer": "Under Settings > Permalinks",
           "active": false,
@@ -1846,10 +1794,10 @@
           "id": 91,
           "question": "Var hittar man menyer i WordPress admin?",
           "answers": [
-            "Under Appearance > Menus",
             "Under Settings > Navigation",
-            "Under Tools > Menus",
-            "Under General > Navigation"
+            "Under Appearance > Menus",
+            "Under Design > Navigation",
+            "Under Tools > Menu Builder"
           ],
           "correct_answer": "Under Appearance > Menus",
           "active": false,
@@ -1859,10 +1807,10 @@
           "id": 92,
           "question": "Var ska nya teman läggas in i WordPress filstruktur?",
           "answers": [
-            "I wp-content/themes/ mappen",
-            "I wp-admin/themes/ mappen",
-            "I root-mappen",
-            "I wp-includes/themes/ mappen"
+            "I wp-content/uploads/themes/",
+            "I wp-content/themes/",
+            "I wp-includes/theme-directory/",
+            "I root/wp-themes/"
           ],
           "correct_answer": "I wp-content/themes/ mappen",
           "active": false,
@@ -1872,10 +1820,10 @@
           "id": 93,
           "question": "Vad är Local (tidigare Local by Flywheel)?",
           "answers": [
+            "Ett verktyg för att optimera WordPress-databaser",
             "Ett program för att enkelt skapa och hantera lokala WordPress-installationer",
-            "Ett plugin för att göra WordPress offline-tillgängligt",
-            "En lokal databas för WordPress",
-            "Ett verktyg för att kopiera WordPress-sidor"
+            "En plugin för att hantera flera WordPress-sajter",
+            "Ett system för att synka live- och staging-miljöer"
           ],
           "correct_answer": "Ett program för att enkelt skapa och hantera lokala WordPress-installationer",
           "active": false,
@@ -1885,10 +1833,10 @@
           "id": 94,
           "question": "Var hittar man widgets i WordPress admin?",
           "answers": [
+            "Under Design > Blocks",
             "Under Appearance > Widgets",
-            "Under Tools > Widgets",
-            "Under Settings > Widgets",
-            "Under General > Widgets"
+            "Under Tools > Site Elements",
+            "Under Settings > Sidebar"
           ],
           "correct_answer": "Under Appearance > Widgets",
           "active": false,
@@ -1898,10 +1846,10 @@
           "id": 95,
           "question": "Var i WordPress admin skapar man nya användare?",
           "answers": [
+            "Under Settings > User Management",
+            "Under Tools > User Creator",
             "Under Users > Add New",
-            "Under Settings > Users",
-            "Under Tools > Users",
-            "Under General > Users"
+            "Under General > Accounts"
           ],
           "correct_answer": "Under Users > Add New",
           "active": false,
@@ -1911,10 +1859,10 @@
           "id": 96,
           "question": "Var hittar man mediabiblioteket i WordPress admin?",
           "answers": [
+            "Under Files > Uploads",
             "Under Media Library i huvudmenyn",
-            "Under Tools > Media",
-            "Under Settings > Media",
-            "Under Appearance > Media"
+            "Under Content > Media",
+            "Under Tools > File Manager"
           ],
           "correct_answer": "Under Media Library i huvudmenyn",
           "active": false,
@@ -1924,10 +1872,10 @@
           "id": 97,
           "question": "Hur översätter man text i WordPress med __() funktionen?",
           "answers": [
+            "Använd __('Text', 'domain') och lägg till språkfiler i plugins-mappen",
             "Använd __('Text att översätta', 'text-domain') och definiera översättningar i .po/.mo filer",
-            "Skriv texten direkt på olika språk i PHP-filen",
-            "Använd Google Translate API",
-            "Lägg till språkfiler i wp-content mappen"
+            "Skriv __('Text') och WordPress översätter automatiskt",
+            "Använd __('Text', 'lang') med ISO-språkkoder"
           ],
           "correct_answer": "Använd __('Text att översätta', 'text-domain') och definiera översättningar i .po/.mo filer",
           "active": false,
@@ -1937,10 +1885,10 @@
           "id": 98,
           "question": "Vad är skillnaden mellan apply_filters() och do_action()?",
           "answers": [
+            "do_action() är för plugins, apply_filters() för teman",
             "apply_filters måste returnera ett värde och modifierar data, do_action utför endast handlingar utan returvärde",
-            "apply_filters är för admin, do_action för frontend",
-            "apply_filters är snabbare än do_action",
-            "Det finns ingen teknisk skillnad"
+            "apply_filters körs före do_action i WordPress livscykel",
+            "do_action() kan endast användas i admin-panelen"
           ],
           "correct_answer": "apply_filters måste returnera ett värde och modifierar data, do_action utför endast handlingar utan returvärde",
           "active": false,
@@ -1950,10 +1898,10 @@
           "id": 99,
           "question": "Vad är skillnaden mellan get_header() och include('header.php')?",
           "answers": [
+            "get_header() fungerar endast med child themes",
+            "include('header.php') är mer prestandaoptimerat",
             "get_header() tillåter teman att åsidosätta header och kör WordPress hooks, include() gör inte det",
-            "get_header() är snabbare än include()",
-            "Det finns ingen skillnad mellan dem",
-            "include() är säkrare att använda"
+            "include('header.php') har bättre säkerhetskontroller"
           ],
           "correct_answer": "get_header() tillåter teman att åsidosätta header och kör WordPress hooks, include() gör inte det",
           "active": false,
@@ -1963,10 +1911,10 @@
           "id": 100,
           "question": "Vad är skillnaden mellan get_template_directory() och get_stylesheet_directory()?",
           "answers": [
+            "get_template_directory() hanterar endast PHP-filer",
             "get_stylesheet_directory() pekar på aktiva temat medan get_template_directory() pekar på föräldra-temat",
-            "Det finns ingen skillnad",
-            "get_template_directory() är nyare version",
-            "get_stylesheet_directory() fungerar endast med child themes"
+            "get_template_directory() används endast i admin-läge",
+            "get_stylesheet_directory() fungerar bara med custom themes"
           ],
           "correct_answer": "get_stylesheet_directory() pekar på aktiva temat medan get_template_directory() pekar på föräldra-temat",
           "active": false,
@@ -1976,10 +1924,10 @@
           "id": 101,
           "question": "Vad gör get_the_excerpt() funktionen?",
           "answers": [
+            "Genererar automatiskt en SEO-beskrivning",
             "Hämtar ett utdrag/sammanfattning av det aktuella inlägget",
-            "Hämtar hela innehållet i ett inlägg",
-            "Skapar en ny excerpt",
-            "Redigerar befintliga excerpts"
+            "Klipper ut första stycket från innehållet",
+            "Skapar en meta-beskrivning för sociala medier"
           ],
           "correct_answer": "Hämtar ett utdrag/sammanfattning av det aktuella inlägget",
           "active": false,
@@ -1995,12 +1943,12 @@
           "id": 51,
           "question": "Vad gör direktivet x-data?",
           "answers": [
-            "Ett direktiv som deklarerar ett nytt dataobjekt för ett element och dess barn",
-            "Ett direktiv som skapar en datamodell för hela applikationen",
-            "Ett direktiv som hanterar datautbyte mellan komponenter",
-            "Ett direktiv som initierar ett lokalt state för en komponent"
+            "Deklarerar ett nytt dataobjekt för elementet och dess barn",
+            "Skapar en global datamodell som delas mellan komponenter",
+            "Hanterar dataflödet mellan förälder och barnelement",
+            "Initierar ett reaktivt tillstånd för komponentträdet"
           ],
-          "correct_answer": "Ett direktiv som deklarerar ett nytt dataobjekt för ett element och dess barn",
+          "correct_answer": "Deklarerar ett nytt dataobjekt för elementet och dess barn",
           "active": false,
           "selected_answer": ""
         },
@@ -2008,12 +1956,12 @@
           "id": 52,
           "question": "Vad används direktivet x-init för?",
           "answers": [
-            "Ett direktiv som kör kod när elementet har monterats i DOM",
-            "Ett direktiv som kör kod innan elementet renderas",
-            "Ett direktiv som initierar Alpine.js i applikationen",
-            "Ett direktiv som kör kod när data ändras i elementet"
+            "Exekverar kod när elementet har monterats i DOM-trädet",
+            "Initierar datavärden innan elementet renderas första gången",
+            "Konfigurerar Alpine.js inställningar för komponenten",
+            "Hanterar livscykel-events för Alpine-komponenter"
           ],
-          "correct_answer": "Ett direktiv som kör kod när elementet har monterats i DOM",
+          "correct_answer": "Exekverar kod när elementet har monterats i DOM-trädet",
           "active": false,
           "selected_answer": ""
         },
@@ -2021,12 +1969,12 @@
           "id": 53,
           "question": "Vad gör direktivet x-show?",
           "answers": [
-            "Togglar display:none på element och stödjer transitions",
-            "Togglar opacity på element för smooth transitions",
-            "Renderar eller tar bort element från DOM baserat på villkor",
-            "Visar element genom att ändra visibility property"
+            "Hanterar elements synlighet genom display:none med transitions",
+            "Kontrollerar elements opacity med inbyggda övergångseffekter",
+            "Modifierar elements visibility-property dynamiskt",
+            "Hanterar conditional rendering genom DOM-manipulation"
           ],
-          "correct_answer": "Togglar display:none på element och stödjer transitions",
+          "correct_answer": "Hanterar elements synlighet genom display:none med transitions",
           "active": false,
           "selected_answer": ""
         },
@@ -2034,12 +1982,12 @@
           "id": 54,
           "question": "Vad är direktivet x-bind?",
           "answers": [
-            "Ett direktiv för reaktiv bindning av attribut och properties",
-            "Ett direktiv för att binda event handlers till element",
-            "Ett direktiv för att skapa två-vägs databindning",
-            "Ett direktiv för att binda komponenter till varandra"
+            "Hanterar dynamisk attributbindning med reaktivitet",
+            "Kopplar samman komponenter för dataöverföring",
+            "Skapar tvåvägs-databindning mellan element",
+            "Binder event handlers till DOM-element"
           ],
-          "correct_answer": "Ett direktiv för reaktiv bindning av attribut och properties",
+          "correct_answer": "Hanterar dynamisk attributbindning med reaktivitet",
           "active": false,
           "selected_answer": ""
         },
@@ -2047,12 +1995,12 @@
           "id": 55,
           "question": "Vad gör direktivet x-on?",
           "answers": [
-            "Lägger till event listeners med stöd för modifiers som .prevent och .stop",
-            "Skapar custom events som kan användas i applikationen",
-            "Hanterar asynkrona event callbacks i Alpine",
-            "Binder DOM events till metoder i x-data objektet"
+            "Registrerar event listeners med inbyggda modifierare",
+            "Skapar anpassade event handlers för komponenter",
+            "Hanterar asynkron eventhantering i Alpine",
+            "Kopplar DOM-events till metoderna i dataobjektet"
           ],
-          "correct_answer": "Lägger till event listeners med stöd för modifiers som .prevent och .stop",
+          "correct_answer": "Registrerar event listeners med inbyggda modifierare",
           "active": false,
           "selected_answer": ""
         },
@@ -2060,12 +2008,12 @@
           "id": 56,
           "question": "Vad gör direktiven x-text och x-html?",
           "answers": [
-            "x-text uppdaterar textContent säkert medan x-html uppdaterar innerHTML",
-            "x-text hanterar text-interpolation medan x-html hanterar DOM-manipulation",
-            "x-text är för statisk text medan x-html är för dynamisk HTML",
-            "x-text escapas HTML medan x-html renderar rå HTML"
+            "Uppdaterar textContent och innerHTML med olika säkerhetsnivåer",
+            "Hanterar text- och HTML-rendering med reaktiva bindningar",
+            "Modifierar DOM-innehåll med olika interpolationsmetoder",
+            "Renderar dynamiskt innehåll med olika escape-strategier"
           ],
-          "correct_answer": "x-text uppdaterar textContent säkert medan x-html uppdaterar innerHTML",
+          "correct_answer": "Uppdaterar textContent och innerHTML med olika säkerhetsnivåer",
           "active": false,
           "selected_answer": ""
         },
@@ -2073,12 +2021,12 @@
           "id": 57,
           "question": "Vad är x-modelable i Alpine?",
           "answers": [
-            "Ett direktiv som låter barn-komponenter dela sina värden uppåt till föräldrar",
-            "Ett direktiv för att skapa datamodeller i komponenten",
-            "Ett direktiv som synkroniserar data mellan komponenter automatiskt",
-            "Ett direktiv som bestämmer vilka värden som kan ändras i en komponent"
+            "Möjliggör tvåvägs-databindning från barn till föräldrakomponent",
+            "Skapar reaktiva datamodeller för komponentkommunikation",
+            "Hanterar state-management mellan nästlade komponenter",
+            "Implementerar observerbara datamönster i komponenter"
           ],
-          "correct_answer": "Ett direktiv som låter barn-komponenter dela sina värden uppåt till föräldrar",
+          "correct_answer": "Möjliggör tvåvägs-databindning från barn till föräldrakomponent",
           "active": false,
           "selected_answer": ""
         },
@@ -2086,12 +2034,12 @@
           "id": 58,
           "question": "Vad gör direktivet x-effect?",
           "answers": [
-            "Skapar en reaktiv effekt som körs när beroende data ändras",
-            "Hanterar sidoeffekter i komponenten när state uppdateras",
-            "Kör en callback när komponenten uppdateras",
-            "Skapar en watcher som observerar dataförändringar"
+            "Exekverar reaktiva beräkningar vid datadependensförändringar",
+            "Hanterar sidoeffekter i komponentens livscykel",
+            "Implementerar watchers för state-förändringar",
+            "Uppdaterar DOM-element baserat på dataförändringar"
           ],
-          "correct_answer": "Skapar en reaktiv effekt som körs när beroende data ändras",
+          "correct_answer": "Exekverar reaktiva beräkningar vid datadependensförändringar",
           "active": false,
           "selected_answer": ""
         },
@@ -2099,12 +2047,12 @@
           "id": 59,
           "question": "Vad är syftet med direktivet x-ignore?",
           "answers": [
-            "Talar om för Alpine att ignorera ett element och dess barn",
-            "Ignorerar fel i koden",
-            "Ignorerar events",
-            "Ignorerar styling"
+            "Förhindrar Alpine.js från att processa elementet och dess barn",
+            "Implementerar en sofistikerad mekanism för att temporärt inaktivera all event-propagation i komponentträdet",
+            "Stoppar Alpine",
+            "Skapar en isolerad zon i DOM-trädet där Alpine.js direktiv och reaktivitet tillfälligt pausas"
           ],
-          "correct_answer": "Talar om för Alpine att ignorera ett element och dess barn",
+          "correct_answer": "Förhindrar Alpine.js från att processa elementet och dess barn",
           "active": false,
           "selected_answer": ""
         },
@@ -2112,12 +2060,12 @@
           "id": 60,
           "question": "Vad gör direktivet x-teleport?",
           "answers": [
-            "Flyttar element till en annan plats i DOM-trädet",
-            "Transporterar data mellan komponenter",
-            "Skapar portaler för modaler",
-            "Hanterar routing"
+            "Möjliggör dynamisk förflyttning av DOM-element till valfri position i dokumentet",
+            "Flyttar",
+            "Implementerar en avancerad portal-mekanism för att hantera dynamisk DOM-manipulation över komponentgränser",
+            "Skapar en direkt länk mellan två olika positioner i DOM-trädet för innehållsrendering"
           ],
-          "correct_answer": "Flyttar element till en annan plats i DOM-trädet",
+          "correct_answer": "Möjliggör dynamisk förflyttning av DOM-element till valfri position i dokumentet",
           "active": false,
           "selected_answer": ""
         },
@@ -2125,12 +2073,12 @@
           "id": 61,
           "question": "Vad är direktivet x-ref?",
           "answers": [
-            "Ett sätt att referera till DOM-element direkt",
-            "En referens till andra komponenter",
-            "Ett sätt att skapa referenser i databasen",
-            "En metod för att länka filer"
+            "Etablerar direkta referenser",
+            "Skapar en mekanism för att direkt referera till DOM-element i JavaScript",
+            "Implementerar ett sofistikerat system för att hantera och cache:a element-referenser över komponentlivscykeln",
+            "En enkel referenspunkt"
           ],
-          "correct_answer": "Ett sätt att referera till DOM-element direkt",
+          "correct_answer": "Skapar en mekanism för att direkt referera till DOM-element i JavaScript",
           "active": false,
           "selected_answer": ""
         },
@@ -2138,12 +2086,12 @@
           "id": 62,
           "question": "Vad är syftet med direktivet x-id?",
           "answers": [
-            "Genererar unika IDs för element som behöver vara sammankopplade",
-            "Skapar ID för databasposter",
-            "Identifierar komponenter",
-            "Sätter HTML id attribut"
+            "Skapar ID",
+            "Genererar unika identifierare för element som behöver vara sammankopplade i komponentträdet",
+            "En avancerad mekanism för att hantera dynamiska ID-attribut över flera komponenter och states",
+            "Sätter basic HTML id"
           ],
-          "correct_answer": "Genererar unika IDs för element som behöver vara sammankopplade",
+          "correct_answer": "Genererar unika identifierare för element som behöver vara sammankopplade i komponentträdet",
           "active": false,
           "selected_answer": ""
         },
@@ -2151,12 +2099,12 @@
           "id": 63,
           "question": "Vad är $el i Alpine?",
           "answers": [
-            "En magic property som refererar till det aktuella DOM-elementet",
-            "En variabel som innehåller alla element i applikationen",
-            "En referens till root-elementet",
-            "En selector för att välja element"
+            "Element-referens",
+            "En magic property som ger direkt åtkomst till det aktuella DOM-elementet med full API-support",
+            "Kort för element",
+            "En sofistikerad wrapper runt native DOM-element som möjliggör avancerad manipulation och händelsehantering"
           ],
-          "correct_answer": "En magic property som refererar till det aktuella DOM-elementet",
+          "correct_answer": "En magic property som ger direkt åtkomst till det aktuella DOM-elementet med full API-support",
           "active": false,
           "selected_answer": ""
         },
@@ -2164,12 +2112,12 @@
           "id": 64,
           "question": "Hur används $refs i Alpine?",
           "answers": [
-            "För att få direkt tillgång till DOM-element markerade med x-ref",
-            "För att skapa referenser mellan komponenter",
-            "För att referera till globala variabler",
-            "För att hantera referenser i databaser"
+            "En enkel referens",
+            "För att skapa och hantera direkta referenser till specifika DOM-element i komponentstrukturen",
+            "Referenshantering",
+            "Ett omfattande system för att spåra, cache:a och optimera åtkomst till DOM-element över komponentens livscykel"
           ],
-          "correct_answer": "För att få direkt tillgång till DOM-element markerade med x-ref",
+          "correct_answer": "För att skapa och hantera direkta referenser till specifika DOM-element i komponentstrukturen",
           "active": false,
           "selected_answer": ""
         },
@@ -2177,12 +2125,12 @@
           "id": 65,
           "question": "Vad används $store för i Alpine?",
           "answers": [
-            "För att hantera global state som är tillgänglig i hela applikationen",
-            "För att spara data temporärt i komponenten",
-            "För att lagra data i localStorage",
-            "För att cacha API-anrop"
+            "Datalagring",
+            "Ett omfattande system för centraliserad state management med reaktiv uppdatering av beroende komponenter",
+            "Sparar data",
+            "Implementerar en avancerad arkitektur för global tillståndshantering med inbyggd händelsepropagering"
           ],
-          "correct_answer": "För att hantera global state som är tillgänglig i hela applikationen",
+          "correct_answer": "Ett omfattande system för centraliserad state management med reaktiv uppdatering av beroende komponenter",
           "active": false,
           "selected_answer": ""
         },
@@ -2243,9 +2191,9 @@
           "question": "Hur hanterar man asynkrona operationer i Alpine?",
           "answers": [
             "Använd async/await i x-init eller metoder, och $nextTick för DOM-uppdateringar",
-            "Använd bara Promise.then() för asynkrona anrop",
-            "Alpine hanterar automatiskt all asynkronitet",
-            "Använd endast setTimeout för asynkrona operationer"
+            "Implementera Promise-baserad datahantering med inbyggda Alpine-metoder",
+            "Ett sofistikerat system för att hantera asynkrona operationer med inbyggd error handling",
+            "Använd Alpine's inbyggda asynkrona eventhantering med Promise-kedjor"
           ],
           "correct_answer": "Använd async/await i x-init eller metoder, och $nextTick för DOM-uppdateringar",
           "active": false,
@@ -2256,9 +2204,9 @@
           "question": "Hur kan man använda Alpine.js med WordPress REST API?",
           "answers": [
             "Genom att göra fetch-anrop i x-init och lagra data i x-data",
-            "Genom att ladda all data via PHP först",
-            "Genom att använda wp_localize_script för all data",
-            "REST API kan inte användas med Alpine.js"
+            "Implementera en REST API wrapper med Alpine stores för datahantering",
+            "Använd WordPress hooks tillsammans med Alpine's reaktiva system",
+            "Integrera REST API-anrop med Alpine's inbyggda state management"
           ],
           "correct_answer": "Genom att göra fetch-anrop i x-init och lagra data i x-data",
           "active": false,
@@ -2269,9 +2217,9 @@
           "question": "Hur integrerar man Alpine.js i ett WordPress-tema?",
           "answers": [
             "Lägg till via wp_enqueue_script med defer och lägg Alpine-kod i template-filer",
-            "Inkludera Alpine.js direkt i header.php",
-            "Använd endast WordPress inbyggda JavaScript",
-            "Alpine.js måste installeras via npm i WordPress"
+            "Implementera Alpine genom WordPress script loader med versionshantering",
+            "Integrera Alpine.js via theme functions med conditional loading",
+            "Använd WordPress asset management för Alpine.js implementation"
           ],
           "correct_answer": "Lägg till via wp_enqueue_script med defer och lägg Alpine-kod i template-filer",
           "active": false,
@@ -2566,12 +2514,12 @@
           "id": 71,
           "question": "Vad är Query Monitor?",
           "answers": [
-            "Ett utvecklarverktyg för att övervaka databasförfrågningar och prestanda i WordPress",
-            "Ett plugin för att hantera användarförfrågningar i kommentarsfältet",
-            "Ett verktyg för att övervaka serverns hälsostatus",
-            "Ett säkerhetsplugin som övervakar inloggningsförsök"
+            "Ett utvecklarverktyg för att övervaka databasförfrågningar i WordPress",
+            "Ett verktyg för att övervaka och optimera WordPress prestanda och cachning",
+            "Ett plugin för att analysera och förbättra databaskopplingar",
+            "Ett diagnostikverktyg för att felsöka WordPress-installationer"
           ],
-          "correct_answer": "Ett utvecklarverktyg för att övervaka databasförfrågningar och prestanda i WordPress",
+          "correct_answer": "Ett utvecklarverktyg för att övervaka databasförfrågningar i WordPress",
           "active": false,
           "selected_answer": ""
         },
@@ -2579,12 +2527,12 @@
           "id": 72,
           "question": "Vad är huvudfunktionen i All-in-One WP Migration?",
           "answers": [
-            "Att optimera bilder på webbplatsen",
-            "Att skapa säkerhetskopior och flytta WordPress-webbplatser mellan olika hostingmiljöer",
-            "Att hantera flera WordPress-installationer samtidigt",
-            "Att översätta webbplatsen till olika språk"
+            "Ett verktyg för att migrera WordPress-sajter mellan olika servrar",
+            "Ett backupverktyg med inbyggd versionshantering och schemaläggning",
+            "En komplett lösning för WordPress-underhåll och säkerhetskopiering",
+            "Ett migreringsverktyg med fokus på databas och innehållssynkronisering"
           ],
-          "correct_answer": "Att skapa säkerhetskopior och flytta WordPress-webbplatser mellan olika hostingmiljöer",
+          "correct_answer": "Ett verktyg för att migrera WordPress-sajter mellan olika servrar",
           "active": false,
           "selected_answer": ""
         },
@@ -2655,14 +2603,14 @@
         },
         {
           "id": 78,
-          "question": "Vad skiljer Contact Form 7 från andra formulärplugins?",
+          "question": "Vad utmärker Contact Form 7 jämfört med andra formulärplugins?",
           "answers": [
-            "Det är det enda formulärpluginet som är gratis",
-            "Det använder shortcodes och är lätt att anpassa med HTML och CSS",
-            "Det har inbyggd betalningsfunktionalitet",
-            "Det kan endast användas för kontaktformulär"
+            "Flexibel anpassning genom shortcodes och direkt HTML/CSS-redigering",
+            "Inbyggt spam-skydd och GDPR-funktioner",
+            "Möjlighet att skapa obegränsat antal formulär utan kostnad",
+            "Omfattande integrationer med CRM-system och e-postplattformar"
           ],
-          "correct_answer": "Det använder shortcodes och är lätt att anpassa med HTML och CSS",
+          "correct_answer": "Flexibel anpassning genom shortcodes och direkt HTML/CSS-redigering",
           "active": false,
           "selected_answer": ""
         },
@@ -2670,25 +2618,25 @@
           "id": 79,
           "question": "Vad är Elementor?",
           "answers": [
-            "En sidbyggare som låter dig designa webbplatser visuellt med drag-and-drop",
-            "Ett plugin för att optimera bilder",
-            "Ett verktyg för att skapa formulär",
-            "Ett säkerhetsplugin"
+            "En visuell sidbyggare med drag-and-drop funktionalitet",
+            "Ett omfattande tema-ramverk med inbyggda designverktyg och responsiva layouter",
+            "En kodlös lösning för att skapa landningssidor",
+            "Ett verktyg för att optimera sidladdning och användarupplevelse"
           ],
-          "correct_answer": "En sidbyggare som låter dig designa webbplatser visuellt med drag-and-drop",
+          "correct_answer": "En visuell sidbyggare med drag-and-drop funktionalitet",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 80,
-          "question": "Vad gör Akismet?",
+          "question": "Vad är Akismets huvudsakliga syfte?",
           "answers": [
-            "Blockerar alla kommentarer",
-            "Filtrerar spam i kommentarer och kontaktformulär",
-            "Hanterar användarregistrering",
-            "Optimerar databasen"
+            "Spam-filtrering för kommentarer",
+            "Omfattande säkerhetslösning mot bottar och automatiserade attacker",
+            "Intelligent innehållsmoderering med maskininlärning",
+            "Automatisk hantering av användarkommentarer och pingbacks"
           ],
-          "correct_answer": "Filtrerar spam i kommentarer och kontaktformulär",
+          "correct_answer": "Spam-filtrering för kommentarer",
           "active": false,
           "selected_answer": ""
         },
@@ -2696,12 +2644,12 @@
           "id": 81,
           "question": "Vad erbjuder Google Site Kit?",
           "answers": [
-            "Endast Google Analytics integration",
-            "Integration med alla Google-tjänster för webbplatser i ett enda gränssnitt",
-            "Automatisk sökmotoroptimering",
-            "Google Ads-hantering"
+            "En samlad översikt av Google-tjänster i WordPress",
+            "Automatisk SEO-optimering och innehållsanalys",
+            "Realtidsstatistik och prestandaövervakning",
+            "Integrerad annonshantering och konverteringsoptimering"
           ],
-          "correct_answer": "Integration med alla Google-tjänster för webbplatser i ett enda gränssnitt",
+          "correct_answer": "En samlad översikt av Google-tjänster i WordPress",
           "active": false,
           "selected_answer": ""
         },
@@ -2709,51 +2657,51 @@
           "id": 82,
           "question": "Vad är WordFence Securitys huvudfunktion?",
           "answers": [
-            "Att skapa säkerhetskopior",
-            "Att erbjuda omfattande säkerhetsfunktioner inklusive brandvägg och malware-scanning",
-            "Att hantera användarrättigheter",
-            "Att optimera databasen"
+            "En komplett säkerhetslösning med brandvägg och malware-scanning",
+            "Automatiserad säkerhetskopiering av webbplatsen",
+            "Övervakning av användaraktivitet och inloggningsförsök",
+            "Ett verktyg för att förhindra brute force-attacker och SQL-injektioner"
           ],
-          "correct_answer": "Att erbjuda omfattande säkerhetsfunktioner inklusive brandvägg och malware-scanning",
+          "correct_answer": "En komplett säkerhetslösning med brandvägg och malware-scanning",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 83,
-          "question": "Vad är skillnaden mellan ACF Pro och ACF?",
+          "question": "Vad skiljer ACF Pro från ACF?",
           "answers": [
-            "ACF Pro innehåller fler fälttyper och avancerade funktioner som repeater fields",
-            "De är exakt samma plugin",
-            "ACF Pro är snabbare",
-            "ACF Pro fungerar endast med WooCommerce"
+            "Repeater fields och flexibla innehållsblock",
+            "ACF Pro erbjuder avancerade relationsfält och gallerifunktioner",
+            "Möjlighet att skapa komplexa innehållsstrukturer",
+            "Stöd för anpassade fälttyper och API-integration"
           ],
-          "correct_answer": "ACF Pro innehåller fler fälttyper och avancerade funktioner som repeater fields",
+          "correct_answer": "Repeater fields och flexibla innehållsblock",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 84,
-          "question": "Vad gör Imagify?",
+          "question": "Vad är Imagifys huvudsyfte?",
           "answers": [
-            "Lägger till bildeffekter",
-            "Optimerar bilder för bättre prestanda utan märkbar kvalitetsförlust",
-            "Skapar bildgallerier",
-            "Konverterar bilder till olika format"
+            "Automatisk bildkomprimering och formatkonvertering",
+            "Intelligent bildoptimering med AI-baserad analys",
+            "Stöd för nästa generations bildformat och lazy loading",
+            "Bildbehandling med fokus på prestanda och kvalitet"
           ],
-          "correct_answer": "Optimerar bilder för bättre prestanda utan märkbar kvalitetsförlust",
+          "correct_answer": "Automatisk bildkomprimering och formatkonvertering",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 85,
-          "question": "Vad är huvudfunktionen i Duplicate Page?",
+          "question": "Vad gör Duplicate Page?",
           "answers": [
-            "Att kopiera WordPress-installationen",
-            "Att skapa kopior av sidor, inlägg och custom post types",
-            "Att synkronisera innehåll mellan webbplatser",
-            "Att skapa arkivversioner av sidor"
+            "Skapar exakta kopior av WordPress-innehåll",
+            "Klonar sidor med alla metadata och inställningar bevarade",
+            "Möjliggör innehållsduplicering mellan olika webbplatser",
+            "Ett verktyg för att replikera sidstrukturer och layouter"
           ],
-          "correct_answer": "Att skapa kopior av sidor, inlägg och custom post types",
+          "correct_answer": "Skapar exakta kopior av WordPress-innehåll",
           "active": false,
           "selected_answer": ""
         },
@@ -2761,12 +2709,12 @@
           "id": 86,
           "question": "Vad används Redirection främst till?",
           "answers": [
-            "Att hantera 404-fel",
-            "Att hantera och övervaka 301-omdirigeringar och 404-fel",
-            "Att skapa kortlänkar",
-            "Att optimera URL-struktur"
+            "URL-omdirigering och felhantering",
+            "Avancerad hantering av 301-redirects med loggning och övervakning",
+            "Automatisk korrigering av brutna länkar",
+            "SEO-optimerad hantering av webbplatsens struktur"
           ],
-          "correct_answer": "Att hantera och övervaka 301-omdirigeringar och 404-fel",
+          "correct_answer": "URL-omdirigering och felhantering",
           "active": false,
           "selected_answer": ""
         },
@@ -2774,116 +2722,129 @@
           "id": 87,
           "question": "Vad gör SVG Support?",
           "answers": [
-            "Konverterar alla bilder till SVG",
-            "Möjliggör säker uppladdning och användning av SVG-filer i WordPress",
-            "Skapar SVG-animationer",
-            "Optimerar SVG-filer automatiskt"
+            "Hanterar säker SVG-filhantering i WordPress",
+            "Konverterar automatiskt rasterbilder till SVG-format",
+            "Erbjuder ett bibliotek med SVG-ikoner och animationer",
+            "Optimerar och validerar SVG-kod för bättre prestanda"
           ],
-          "correct_answer": "Möjliggör säker uppladdning och användning av SVG-filer i WordPress",
+          "correct_answer": "Hanterar säker SVG-filhantering i WordPress",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 88,
-          "question": "Vad är huvudfunktionen i Template Cache?",
+          "question": "Vad är Template Cache designat för?",
           "answers": [
-            "Att spara mallar för återanvändning",
-            "Att cacha sidmallar för förbättrad prestanda",
-            "Att skapa nya sidmallar",
-            "Att rensa cache automatiskt"
+            "Optimerar mallrendering genom intelligent cachning",
+            "Hanterar temporär lagring av WordPress-teman",
+            "Förbättrar sidladdning genom att cacha PHP-filer",
+            "Ett system för att spara och återanvända sidmallar"
           ],
-          "correct_answer": "Att cacha sidmallar för förbättrad prestanda",
+          "correct_answer": "Optimerar mallrendering genom intelligent cachning",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 89,
-          "question": "Vad är WooCommerce främst designat för?",
+          "question": "Vad är WooCommerce främst utvecklat för?",
           "answers": [
-            "Att hantera blogginlägg",
-            "Att skapa en komplett e-handelsplattform i WordPress",
-            "Att hantera medlemskap på webbplatsen",
-            "Att optimera webbplatsens prestanda"
+            "En fullskalig e-handelslösning för WordPress",
+            "Digital produktförsäljning och prenumerationshantering",
+            "Integrerad betalningshantering och lagerhantering",
+            "Ett system för att hantera online-butiker och kundrelationer"
           ],
-          "correct_answer": "Att skapa en komplett e-handelsplattform i WordPress",
+          "correct_answer": "En fullskalig e-handelslösning för WordPress",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 90,
-          "question": "Vad är UpdraftPlus huvudsakliga funktion?",
+          "question": "Vad är UpdraftPlus huvudfunktion?",
           "answers": [
-            "Att automatisera WordPress-uppdateringar",
-            "Att skapa och schemalägga kompletta säkerhetskopior av WordPress",
-            "Att optimera databasen",
-            "Att hantera flera WordPress-sajter"
+            "Molnbaserad säkerhetskopiering av WordPress",
+            "Automatiserad backup med schemaläggning och versionshantering",
+            "Ett verktyg för att migrera WordPress-installationer",
+            "Säker datalagring med kryptering och återställningsfunktioner"
           ],
-          "correct_answer": "Att skapa och schemalägga kompletta säkerhetskopior av WordPress",
+          "correct_answer": "Automatiserad backup med schemaläggning och versionshantering",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 91,
-          "question": "Vad gör WP Super Cache?",
+          "question": "Vad är WP Super Cache's syfte?",
           "answers": [
-            "Rensar WordPress-databasen",
-            "Skapar statiska HTML-filer från WordPress-sidor för snabbare laddning",
-            "Cachar endast admin-panelen",
-            "Hanterar server-side caching"
+            "Genererar statiska HTML-filer för snabbare sidvisning",
+            "Optimerar WordPress databasprestanda",
+            "Levererar innehåll via CDN för global åtkomst",
+            "Komprimerar webbplatsens resurser automatiskt"
           ],
-          "correct_answer": "Skapar statiska HTML-filer från WordPress-sidor för snabbare laddning",
+          "correct_answer": "Genererar statiska HTML-filer för snabbare sidvisning",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 92,
-          "question": "Vad är huvudfunktionen i WP-Optimize?",
+          "question": "Vad är huvudsyftet med Really Simple SSL?",
           "answers": [
-            "Att optimera bilder",
-            "Att rensa och optimera WordPress-databasen samt komprimera bilder",
-            "Att optimera serverns prestanda",
-            "Att optimera SEO-inställningar"
+            "Automatisk SSL-konfiguration för WordPress",
+            "Ett omfattande verktyg för HTTPS-migrering och säkerhetscertifikat",
+            "Övervakar och uppdaterar SSL-certifikat",
+            "Hanterar mixed content och SSL-relaterade problem"
           ],
-          "correct_answer": "Att rensa och optimera WordPress-databasen samt komprimera bilder",
+          "correct_answer": "Automatisk SSL-konfiguration för WordPress",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 93,
-          "question": "Vad erbjuder Monster Insights?",
+          "question": "Vad erbjuder WP-Optimize?",
           "answers": [
-            "SEO-optimering",
-            "Detaljerad Google Analytics-integration och rapportering direkt i WordPress",
-            "Sociala media-statistik",
-            "E-postmarknadsföringsverktyg"
+            "Omfattande databasoptimering och cachehantering",
+            "Automatisk rensning av revideringar och spam",
+            "Prestandaförbättring genom bildkomprimering",
+            "Schemalagd underhåll av WordPress-installationen"
           ],
-          "correct_answer": "Detaljerad Google Analytics-integration och rapportering direkt i WordPress",
+          "correct_answer": "Omfattande databasoptimering och cachehantering",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 94,
-          "question": "Vad är Jetpacks mest utmärkande egenskap?",
+          "question": "Vad är huvudfunktionen i Classic Editor?",
           "answers": [
-            "Endast säkerhetskopiering",
-            "Kombinerar säkerhet, prestanda, marknadsföring och utvecklarverktyg i ett plugin",
-            "Endast statistikhantering",
-            "Bara spam-skydd"
+            "Återställer WordPress till den traditionella textredigeraren",
+            "Ett alternativ till Gutenberg med klassiska redigeringsverktyg",
+            "Erbjuder bakåtkompatibilitet för äldre teman",
+            "Möjliggör växling mellan olika redigeringslägen"
           ],
-          "correct_answer": "Kombinerar säkerhet, prestanda, marknadsföring och utvecklarverktyg i ett plugin",
+          "correct_answer": "Återställer WordPress till den traditionella textredigeraren",
           "active": false,
           "selected_answer": ""
         },
         {
           "id": 95,
-          "question": "Vad är WPML specialiserat på?",
+          "question": "Vad gör Broken Link Checker?",
           "answers": [
-            "Att översätta automatiskt med AI",
-            "Att hantera och bygga flerspråkiga WordPress-webbplatser",
-            "Att översätta endast WooCommerce",
-            "Att skapa språkväxlare"
+            "Identifierar och rapporterar brutna länkar på webbplatsen",
+            "Automatisk scanning och reparation av döda länkar",
+            "Övervakar externa länkar och genererar rapporter",
+            "Ett verktyg för att hitta och åtgärda 404-fel"
           ],
-          "correct_answer": "Att hantera och bygga flerspråkiga WordPress-webbplatser",
+          "correct_answer": "Identifierar och rapporterar brutna länkar på webbplatsen",
+          "active": false,
+          "selected_answer": ""
+        },
+        {
+          "id": 96,
+          "question": "Vad är huvudfunktionen i WP Mail SMTP?",
+          "answers": [
+            "Konfigurerar WordPress för pålitlig e-postleverans via SMTP",
+            "Hanterar e-postutskick och nyhetsbrev",
+            "Förbättrar e-postsäkerhet och autentisering",
+            "Ett system för att spåra och logga e-postmeddelanden"
+          ],
+          "correct_answer": "Konfigurerar WordPress för pålitlig e-postleverans via SMTP",
           "active": false,
           "selected_answer": ""
         }
